@@ -1,0 +1,15 @@
+import styled from 'styled-components'
+
+export const Directorbackground = styled.div`
+background-image: url(${process.env.PUBLIC_URL + '/Activity.jpg'});
+height:80vh;
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+`
+export const Sub = styled.div`
+padding: 60px;
+
+`

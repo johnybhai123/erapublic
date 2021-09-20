@@ -1,0 +1,23 @@
+.navbar-nav > li{
+    padding-left:15px;
+    padding-right:15px;
+  }
+  @media only screen and (min-width: 600px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin: 0;
+     }
+     .nav-item{
+      opacity: 0.9;
+    }
+}
+
+svg:hover{
+  opacity: 0.6;
+ 
+}
+
+
+ul{
+  z-index: 2;
+}
