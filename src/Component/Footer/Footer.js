@@ -12,6 +12,7 @@ import {
   Footerlinks,
   Footervideo,
 } from "./Footer.elements";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -31,7 +32,7 @@ function Footer() {
         </Footerdescription>
         <Footerlinks>
           <Ul>
-            <Li>QUICK LINKS <hr /></Li>
+          <a href="https://www2.ed.gov/parents/schools/find/choose/choosing.pdf">  <Li>QUICK LINKS <hr /></Li></a>
             <Li>SCHOOL BROCHURE <hr /></Li>
             <Li>CAREERS <hr /></Li>
             <Li>UPDATES <hr /></Li>

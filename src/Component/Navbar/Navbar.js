@@ -495,18 +495,17 @@ function Navbar() {
 
 
                 <li class="nav-item">
-            <a
-                    className="nav-link dropdown-toggle text-white"
-                    
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
+                <Link style={{textDecoration:'none'}} to="/staff">
+           <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                   
                   >
-                    Staff Details
+                    Staff
                   </a>
+           </Link>
                 </li>
-               <Link to='/'>
+               <Link to='/contact'>
                <li class="nav-item">
                 <button type="button" class="btn btn-dark">Contact us</button>
                 </li>

@@ -1,10 +1,13 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { AcademicCurriculum, Activity, Classicalart, Classrooms, Codeofconduct, Earlychildhood, Elementaryschool, Footer, Labs, Library, Middleschool, Moral, Navbar, Newsevent, Principalpen, Spiritual, Uniform } from "./Component";
+import { AcademicCurriculum, Activity, Annual, Classicalart, Classrooms, Codeofconduct, Computerlab, Earlychildhood, Educationaltour, Elementaryschool, Footer, Labs, Library, Middleschool, Moral, Nationalfestival, Navbar, Newsevent, Principalpen, Spiritual, Sportsday, Uniform } from "./Component";
 import Home from "./Pages/Home/Home";
 import Director from "./Pages/Director/Director";
 import Highshool from "./Component/Highschool/Highschool";
 import Corriculums from "./Pages/Cocurriculams/Corriculums";
+import Staff from "./Component/Staff/Staff";
+import Contact from "./Component/Contact/Contact";
+import Admissioninquiry from "./Component/Admissioninquiry/Admissioninquiry";
 function App() {
   return (
     <div className="App">
@@ -31,6 +34,14 @@ function App() {
           <Route path="/lab" exact component={Labs}/>
           <Route path="/modern" exact component={Classicalart}/>
           <Route path="/library" exact component={Library}/>
+          <Route path="/wifi" exact component={Computerlab}/>
+          <Route path="/festivals" exact component={Nationalfestival}/>
+          <Route path="/Sports" exact component={Sportsday}/>
+          <Route path="/annual" exact component={Annual}/>
+          <Route path="/tour" exact component={Educationaltour}/>
+          <Route path="/staff" exact component={Staff}/>
+          <Route path="/contact" exact component={Contact}/>
+          <Route path="/inquiry" exact component={Admissioninquiry}/>
 
           
 

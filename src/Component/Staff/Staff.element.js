@@ -1,0 +1,19 @@
+import styled from 'styled-components';
+
+export const Main = styled.div`
+
+`
+
+export const Directorbackground = styled.div`
+background-image: url(${process.env.PUBLIC_URL + '/Spiritual.jpg'});
+height:80vh;
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+`
+
+export const Sub = styled.div`
+padding:50px;
+`

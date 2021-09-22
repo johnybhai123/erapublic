@@ -23,3 +23,8 @@ export { default as Classrooms } from "./Classrooms/Classrooms";
 export { default as Labs } from "./Labs/Labs";
 export { default as Classicalart } from "./Classicalart/Classicalart";
 export { default as Library } from "./Library/Library";
+export { default as Computerlab } from "./Computerlab/Computerlab";
+export { default as Nationalfestival } from "./Nationalfestival/Nationalfestival";
+export { default as Sportsday } from "./Sportsday/Sportsday";
+export { default as Annual } from "./Annualfunction/Annualfunction";
+export { default as Educationaltour } from "./Educationaltour/Educationaltour";
