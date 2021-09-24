@@ -8,6 +8,7 @@ import Corriculums from "./Pages/Cocurriculams/Corriculums";
 import Staff from "./Component/Staff/Staff";
 import Contact from "./Component/Contact/Contact";
 import Admissioninquiry from "./Component/Admissioninquiry/Admissioninquiry";
+import Noticedescription from "./Component/Noticedescription/Noticedescription";
 function App() {
   return (
     <div className="App">
@@ -42,6 +43,7 @@ function App() {
           <Route path="/staff" exact component={Staff}/>
           <Route path="/contact" exact component={Contact}/>
           <Route path="/inquiry" exact component={Admissioninquiry}/>
+          <Route path="/schoolbyte/:id" exact component={Noticedescription}/>
 
           
 
