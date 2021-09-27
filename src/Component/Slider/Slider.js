@@ -27,7 +27,7 @@ function Slider() {
           <img
             className="d-block w-100"
             style={{ height: "100vh",opacity:'0.9' }}
-            src={image1}
+            src='https://scontent.fbho2-1.fna.fbcdn.net/v/t1.6435-9/67830128_101636954523720_3745554095948169216_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=w_GSnKLj8-8AX_T-8to&_nc_ht=scontent.fbho2-1.fna&oh=ab9bcc9d5524c6cef9ac25c1fc7565be&oe=6175BFFB'
             alt="First slide"
           />
           {/* <Carouselcaption>
@@ -40,7 +40,7 @@ function Slider() {
             className="d-block w-100"
             style={{ height: "100vh",opacity:'0.7' }}
 
-            src={image2}
+            src='https://scontent.fbho2-1.fna.fbcdn.net/v/t1.6435-9/67830128_101636954523720_3745554095948169216_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=w_GSnKLj8-8AX_T-8to&_nc_ht=scontent.fbho2-1.fna&oh=ab9bcc9d5524c6cef9ac25c1fc7565be&oe=6175BFFB'
             alt="Second slide"
           />
              {/* <Carouselcaption>
@@ -53,7 +53,8 @@ function Slider() {
             className="d-block w-100"
             style={{ height: "100vh",opacity:'0.7' }}
 
-            src={image3}
+            src='http://127.0.0.1:8000/media/d2.jpg'
+            
             alt="Third slide"
           />
              {/* <Carouselcaption>
@@ -66,7 +67,8 @@ function Slider() {
             className="d-block w-100"
             style={{ height: "100vh",opacity:'0.7' }}
 
-            src={image4}
+            src='http://127.0.0.1:8000/media/d2.jpg'
+            
             alt="Third slide"
           />
              {/* <Carouselcaption>
@@ -79,7 +81,8 @@ function Slider() {
             className="d-block w-100"
             style={{ height: "100vh",opacity:'0.7' }}
 
-            src={image5}
+            src='http://127.0.0.1:8000/media/d2.jpg'
+            
             alt="Third slide"
           />
              {/* <Carouselcaption>
@@ -92,7 +95,8 @@ function Slider() {
             className="d-block w-100"
             style={{ height: "100vh",opacity:'0.7' }}
 
-            src={image6}
+            src='http://127.0.0.1:8000/media/d2.jpg'
+            
             alt="Third slide"
           />
              {/* <Carouselcaption>

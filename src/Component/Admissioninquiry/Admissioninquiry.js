@@ -1,16 +1,18 @@
 import React,{useState,useEffect} from 'react'
 import { Button, Fill, Form, Input, Main, Sub, Talk } from "./Admissioninquiry.element";
 import axios from 'axios'
+import { Redirect, useHistory } from 'react-router';
 function Admissioninquiry() {
+  let history = useHistory();
   const [firstname,setFirstname]=useState()
   const [lastname,setLastname]=useState()
   const [email,setEmail]=useState()
   const [city,setCity]=useState()
   const [mobile,setMobile]=useState()
   const [description,setDescription]=useState()
-
   const handleSubmit=(e)=>{
     e.preventDefault()
+    
     const createPost = async () => {
       try {
         const Response = await axios.post(
@@ -23,8 +25,8 @@ function Admissioninquiry() {
             description:description
           }
         ).then(res=>{
-        console.log(res.data)
-        
+        history.push('/')
+
         })
     
           
@@ -34,13 +36,12 @@ function Admissioninquiry() {
      catch (error) {
       console.log(error)
     }}
-    createPost()
+    createPost();
+    
   
   }
 
-  useEffect(()=>{
-
-  },[])
+ 
 
  
   return (
