@@ -1,20 +1,19 @@
 import React from 'react'
 import { Descriptioncomponent, Headingcomponent, Imagecomponent, Main, Subcomponent } from './Facilities.elements'
-import image from '../../images/national-festival-box-img.jpg'
 
-function Component() {
+function Component(props) {
     return (
         
             <Subcomponent>
-                <Imagecomponent src={image}>
+                <Imagecomponent src={props.image}>
 
                 </Imagecomponent>
                 <Headingcomponent>
-                    Lorem ipsum dolor sit amet.
+                    {props.heading}
                 </Headingcomponent>
 
                 <Descriptioncomponent>
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, consectetur.
+                    {props.description}
                 </Descriptioncomponent>
             </Subcomponent>
       

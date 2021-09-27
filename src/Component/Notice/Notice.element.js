@@ -25,7 +25,6 @@ cursor:pointer;
 `
 
 export const NoticeText = styled.div`
-margin:
 cursor:pointer;
 `
 

@@ -9,6 +9,19 @@ import Staff from "./Component/Staff/Staff";
 import Contact from "./Component/Contact/Contact";
 import Admissioninquiry from "./Component/Admissioninquiry/Admissioninquiry";
 import Noticedescription from "./Component/Noticedescription/Noticedescription";
+import Importantdescription from "./Component/Noticedescription/Importantdescription";
+import Strongfoundation from "./Component/Strongfoundation/Strongfoundation";
+import Vission from "./Component/Vission/Vission";
+import Mission from "./Component/Mission/Mission";
+import Teachingmethodlogy from "./Component/Teachingmethodology/Teachingmethodology";
+import Ourteam from "./Component/Ourteam/Ourteam";
+import Saritabudana from "./Component/Saritabudana/Saritabudana";
+import Md from "./Component/Md/Md";
+import President from "./Component/President/President";
+import Principal from "./Component/Principal/Principal";
+import Kindergarten from "./Component/Kindergarten/Kindergarten";
+import Activityroom from "./Component/Activityroom/Activityroom";
+import Transport from "./Component/Transport/Transport";
 function App() {
   return (
     <div className="App">
@@ -44,6 +57,19 @@ function App() {
           <Route path="/contact" exact component={Contact}/>
           <Route path="/inquiry" exact component={Admissioninquiry}/>
           <Route path="/schoolbyte/:id" exact component={Noticedescription}/>
+          <Route path="/schoolemportent/:id" exact component={Importantdescription}/>
+          <Route path="/foundation" exact component={Strongfoundation}/>
+          <Route path="/vision" exact component={Vission}/>
+          <Route path="/mission" exact component={Mission}/>
+          <Route path="/Tm" exact component={Teachingmethodlogy}/>
+          <Route path="/ourteam" exact component={Ourteam}/>
+          <Route path="/Director" exact component={Saritabudana}/>
+          <Route path="/Md" exact component={Md}/>
+          <Route path="/president" exact component={President}/>
+          <Route path="/principal" exact component={Principal}/>
+          <Route path="/kinder" exact component={Kindergarten}/>
+          <Route path="/activity" exact component={Activityroom}/>
+          <Route path="/transportation" exact component={Transport}/>
 
           
 

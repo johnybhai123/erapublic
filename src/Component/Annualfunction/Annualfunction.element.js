@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Directorbackground = styled.div`
-background-image: url(${process.env.PUBLIC_URL + '/Annual.jpg'});
+background-image: url(${process.env.PUBLIC_URL + '/DSC_8215.JPG'});
 height:80vh;
 background-repeat:no-repeat;
 background-size:cover;

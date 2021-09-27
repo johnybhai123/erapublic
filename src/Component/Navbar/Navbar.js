@@ -21,7 +21,7 @@ function Navbar() {
               fontWeight: "700",
             }}
           >
-            CBSE AFFILIATED CODE-CBSE0213{" "}
+            CBSE AFFILIATION-#1030413{" "}
           </p>{" "}
           <div
             style={{
@@ -150,7 +150,7 @@ function Navbar() {
         </Main>
         <nav
           class="navbar navbar-expand-lg navbar-light  py-3  "
-          style={{ backgroundColor: "#BC2923", color: "white" }}
+          style={{ backgroundColor: "#00A19D", color: "white" }}
         >
           <div class="container-fluid">
             <button
@@ -196,7 +196,54 @@ function Navbar() {
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                   >
+                     <li>
+                    <Link style={{textDecoration:'none',color: "black"}} to="/foundation"  >
+                    <a className="dropdown-item">
+                        Strong Foundation
+                      </a></Link>
+                    </li>
+                    <hr className="dropdown-divider" />
+
+                     <li>
+                    <Link style={{textDecoration:'none',color: "black"}} to="/vision"  >
+                    <a className="dropdown-item">
+                        Vision
+                      </a></Link>
+                    </li>
+                    <hr className="dropdown-divider" />
+
+                     <li>
+                    <Link style={{textDecoration:'none',color: "black"}} to="/mission"  >
+                    <a className="dropdown-item">
+                        Mission
+                      </a></Link>
+                    </li>
+                    <hr className="dropdown-divider" />
+
+                     <li>
+                    <Link style={{textDecoration:'none',color: "black"}} to="/Tm"  >
+                    <a className="dropdown-item">
+                        Teaching Methodology
+                      </a></Link>
+                    </li>
+                    <hr className="dropdown-divider" />
+
                     <li>
+                    <Link style={{textDecoration:'none',color: "black"}} to="/ourteam"  >
+                    <a className="dropdown-item">
+                        Our Team
+                      </a></Link>
+                    </li>
+                    <hr className="dropdown-divider" />
+
+                     <li>
+                    <Link style={{textDecoration:'none',color: "black"}} to="/foundation"  >
+                    <a className="dropdown-item">
+                        Annual Report
+                      </a></Link>
+                    </li>
+                    {/* <hr className="dropdown-divider" /> */}
+                    {/* <li>
                     <Link style={{textDecoration:'none',color: "black"}} to="/directorpen"  >
                     <a className="dropdown-item">
                         From The Director Pen
@@ -227,7 +274,7 @@ function Navbar() {
                     <a className="dropdown-item">
                         Uniform
                       </a></Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
@@ -239,7 +286,7 @@ function Navbar() {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Academic Life
+                    Academic
                   </a>
                   <ul
                     className="dropdown-menu"
@@ -247,17 +294,17 @@ function Navbar() {
                   >
                     
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/academicurriculum"  >
+                    <a style={{textDecoration:'none',color: "black"}} href="https://docs.google.com/spreadsheets/d/1E4y9VzUVDFcrEj4Wfr20gZ0LbWx_VQ5Z/edit#gid=1387076252"  >
                     <a className="dropdown-item">
-                        Academic curriculum
-                      </a></Link>
+                        Book List
+                      </a></a>
                     </li>
                     <hr className="dropdown-divider" />
 
                     <li>
                     <Link style={{textDecoration:'none',color: "black"}} to="/earlychildhood"  >
                     <a className="dropdown-item">
-                        Early Childhood Education
+                        Examination
                       </a></Link>
                     </li>
                     <li>
@@ -266,7 +313,7 @@ function Navbar() {
                     <li>
                     <Link style={{textDecoration:'none',color: "black"}} to="/elementary"  >
                     <a className="dropdown-item">
-                        The Elementary School
+                        Academic Calender
                       </a></Link>
                     </li>
                     <li>
@@ -275,17 +322,17 @@ function Navbar() {
                     <li>
                     <Link style={{textDecoration:'none',color: "black"}} to="/middle"  >
                     <a className="dropdown-item">
-                        The Middle School
+                        Celebrations
                       </a></Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/highschool"  >
+                    <a style={{textDecoration:'none',color: "black"}} href="https://docs.google.com/document/d/1m8CoeexrAyFr0n9nX8vcfcKWfuFEL-4P/edit"  >
                     <a className="dropdown-item">
-                       The High School
-                      </a></Link>
+                       TC
+                      </a></a>
                     </li>
                    </ul>
 </li>
@@ -316,10 +363,18 @@ function Navbar() {
                     <hr className="dropdown-divider" />
 
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/dates"  >
+                    <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/drive/folders/1SME3USPEZa3W8KhJ5Oa1lNmtXHMflNEd"  >
                     <a className="dropdown-item">
-                        Admission Dates
-                      </a></Link>
+                        Admission Form
+                      </a></a>
+                    </li>
+                    <hr className="dropdown-divider" />
+
+                    <li>
+                    <a style={{textDecoration:'none',color: "black"}} href="https://docs.google.com/document/d/1DJFKLkY1pZMDEDfuCCzg4vocEELJaN_K/edit#"  >
+                    <a className="dropdown-item">
+                        Fee Structure
+                      </a></a>
                     </li>
                 
                 
@@ -328,7 +383,7 @@ function Navbar() {
 
 
 
-                <li className="nav-item dropdown">
+                {/* <li className="nav-item dropdown">
             <a
                     className="nav-link dropdown-toggle text-white"
                     
@@ -377,7 +432,7 @@ function Navbar() {
                 
                 
                   </ul>
-                </li>
+                </li> */}
 
 
 
@@ -410,14 +465,7 @@ function Navbar() {
                         Laboratory
                       </a></Link>
                     </li>
-                    <hr className="dropdown-divider" />
-
-                    <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/modern"  >
-                    <a className="dropdown-item">
-                       Modern & Classical Art
-                      </a></Link>
-                    </li>
+                   
                 
                     <hr className="dropdown-divider" />
 
@@ -435,7 +483,38 @@ function Navbar() {
                         Wifi Enabled Computer Lab
                       </a></Link>
                       </li>
-                
+                 <hr className="dropdown-divider" />
+
+                    <li>
+                    <Link style={{textDecoration:'none',color: "black"}} to="/modern"  >
+                    <a className="dropdown-item">
+                       Playground
+                      </a></Link>
+                    </li>
+                 <hr className="dropdown-divider" />
+
+                    <li>
+                    <Link style={{textDecoration:'none',color: "black"}} to="/kinder"  >
+                    <a className="dropdown-item">
+                       Kindergarten
+                      </a></Link>
+                    </li>
+                 <hr className="dropdown-divider" />
+
+                    <li>
+                    <Link style={{textDecoration:'none',color: "black"}} to="/activity"  >
+                    <a className="dropdown-item">
+                       Activity & Music Room
+                      </a></Link>
+                    </li>
+                 <hr className="dropdown-divider" />
+
+                    <li>
+                    <Link style={{textDecoration:'none',color: "black"}} to="/transportation"  >
+                    <a className="dropdown-item">
+                       Transportation
+                      </a></Link>
+                    </li>
                 
                   </ul>
                 </li>
@@ -456,21 +535,7 @@ function Navbar() {
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                   >
-                    <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/festivals"  >
-                    <a className="dropdown-item">
-                       National Festival
-                      </a></Link>
-                    </li>
-                    <hr className="dropdown-divider" />
-
-                    <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/sports"  >
-                    <a className="dropdown-item">
-                        Sports Day
-                      </a></Link>
-                    </li>
-                    <hr className="dropdown-divider" />
+               
 
                     <li>
                     <Link style={{textDecoration:'none',color: "black"}} to="/annual"  >
@@ -479,15 +544,7 @@ function Navbar() {
                       </a></Link>
                     </li>
                 
-                    <hr className="dropdown-divider" />
 
-                    <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/tour"  >
-                    <a className="dropdown-item">
-                        Educational Tour
-                      </a></Link>
-                    </li>
-                 
                 
                 
                   </ul>

@@ -1,6 +1,10 @@
 import React from "react";
-import image from "../../images/school1.jpg";
-import image2 from "../../images/school2.jpg";
+import image1 from "../../images/1.JPG";
+import image2 from "../../images/2.JPG";
+import image3 from "../../images/3.JPG";
+import image4 from "../../images/4.JPG";
+import image5 from "../../images/5.JPG";
+import image6 from "../../images/6.JPG";
 import { Carouselcaption } from "./Slider.elements";
 function Slider() {
   return (
@@ -22,14 +26,14 @@ function Slider() {
         <div className="carousel-item active">
           <img
             className="d-block w-100"
-            style={{ height: "100vh",opacity:'0.7' }}
-            src={image}
+            style={{ height: "100vh",opacity:'0.9' }}
+            src={image1}
             alt="First slide"
           />
-          <Carouselcaption>
-            <h1 style={{color:'black',textShadow:'1px 1px white'}}>School Heading</h1>
+          {/* <Carouselcaption>
+            <h2 style={{color:'blue',textShadow:'1px 1px white'}}>Be able to work independently and with others</h2>
             <p style={{color:'white'}}>School Description</p>
-          </Carouselcaption>
+          </Carouselcaption> */}
         </div>
         <div className="carousel-item">
           <img 
@@ -39,23 +43,62 @@ function Slider() {
             src={image2}
             alt="Second slide"
           />
-             <Carouselcaption>
+             {/* <Carouselcaption>
             <h1 style={{color:'black',textShadow:'1px 1px white'}}>School Heading</h1>
             <p style={{color:'white'}}>School Description</p>
-          </Carouselcaption>
+          </Carouselcaption> */}
         </div>
         <div className="carousel-item">
           <img
             className="d-block w-100"
             style={{ height: "100vh",opacity:'0.7' }}
 
-            src={image}
+            src={image3}
             alt="Third slide"
           />
-             <Carouselcaption>
+             {/* <Carouselcaption>
             <h1 style={{color:'black',textShadow:'1px 1px white'}}>School Heading</h1>
             <p style={{color:'white'}}>School Description</p>
-          </Carouselcaption>
+          </Carouselcaption> */}
+        </div>
+        <div className="carousel-item">
+          <img
+            className="d-block w-100"
+            style={{ height: "100vh",opacity:'0.7' }}
+
+            src={image4}
+            alt="Third slide"
+          />
+             {/* <Carouselcaption>
+            <h1 style={{color:'black',textShadow:'1px 1px white'}}>School Heading</h1>
+            <p style={{color:'white'}}>School Description</p>
+          </Carouselcaption> */}
+        </div>
+        <div className="carousel-item">
+          <img
+            className="d-block w-100"
+            style={{ height: "100vh",opacity:'0.7' }}
+
+            src={image5}
+            alt="Third slide"
+          />
+             {/* <Carouselcaption>
+            <h1 style={{color:'black',textShadow:'1px 1px white'}}>School Heading</h1>
+            <p style={{color:'white'}}>School Description</p>
+          </Carouselcaption> */}
+        </div>
+        <div className="carousel-item">
+          <img
+            className="d-block w-100"
+            style={{ height: "100vh",opacity:'0.7' }}
+
+            src={image6}
+            alt="Third slide"
+          />
+             {/* <Carouselcaption>
+            <h1 style={{color:'black',textShadow:'1px 1px white'}}>Goals of education  </h1>
+            <p style={{color:'white'}}>Be able to work independently and with others</p>
+          </Carouselcaption> */}
         </div>
       </div>
       <a

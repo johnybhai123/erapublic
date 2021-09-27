@@ -5,7 +5,7 @@ function Home() {
     return (
    <>
         <Slider/>
-        <Magzine/>
+        {/* <Magzine/> */}
         <Facilities/>
          <Notice/>
           <Gallery/>

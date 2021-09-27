@@ -2,9 +2,11 @@ import React,{useState,useEffect} from 'react'
 import axios from 'axios'
 import Datecomponent from './Datecomponent'
 import { Main,ExclusiveNotice, ImportantNotoice, Noticeboard, Sub } from './Notice.element'
+import Importantcomponent from './Importantcomponent'
 
 function Notice() {
     const[head,setHead] = useState([])
+    const[imp,setImp] = useState([])
     const fetchPosts = async () => {
 
         try {
@@ -22,8 +24,27 @@ function Notice() {
        catch (error) {
         console.log(error)
       }}
+
+      const fetchPosts1 = async () => {
+
+        try {
+          const Response = await axios.get(
+            `http://127.0.0.1:8000/schoolemportent/`
+          ).then(res=>{
+          setImp(res.data)
+          
+          })
+      
+            
+      
+          
+        }
+       catch (error) {
+        console.log(error)
+      }}
     useEffect(()=>{
      fetchPosts()
+     fetchPosts1()
     },[4])
     
     return (
@@ -40,10 +61,7 @@ function Notice() {
                        </ImportantNotoice>
                        <ImportantNotoice>
                             <h1>&nbsp;&nbsp;&nbsp;School Bytes &nbsp;&nbsp;&nbsp;</h1>
-                       {/* <Datecomponent></Datecomponent>
-                       <Datecomponent></Datecomponent>
-                       <Datecomponent></Datecomponent>
-                       <Datecomponent></Datecomponent> */}
+                          <Importantcomponent head={imp}/>
                             
 
                        </ImportantNotoice>

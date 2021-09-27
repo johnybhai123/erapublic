@@ -3,8 +3,7 @@ import axios from "axios";
 import { Main } from "./Noticedescription.element";
 function Noticedescription(props) {
   const [head, setHead] = useState([]);
-  const [loading, setLoading] = useState(true);
-  
+const [datestr,setDatestr] = useState()
   
   const fetchPosts = async () => {
 
@@ -13,8 +12,8 @@ function Noticedescription(props) {
         `http://127.0.0.1:8000/schoolbyte/${props.match.params.id}`
       ).then(res=>{
       setHead(res.data)
+      setDatestr(res.data.createAte)
       
-      console.log(loading)
       })
   
         
@@ -27,15 +26,12 @@ function Noticedescription(props) {
   useEffect(() => {
     fetchPosts();
   }, [4]);
-//   if(loading)
-//   {  return <div>
-//       Loading
-//     </div>}
-// else{
 
+ 
     return <Main>
    
-    <h1>{head.notice_heading}</h1>
+    <h1 style={{border:'1px solid black',color:'blue'}}>{head.notice_heading}</h1>
+    <p>{datestr}</p>
       <p>{head.notice_discription}</p>
  
   </Main>;

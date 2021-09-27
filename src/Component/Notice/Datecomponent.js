@@ -20,12 +20,12 @@ function Datecomponent({head}) {
             <NoticeText>
            
                 {head.slice(0).reverse().map((h)=>(
-                    <a href={`/schoolbyte/${h.id}`}>
+                    <Link to={`/schoolbyte/${h.id}`}>
                     <div style={{display:'flex',flexWrap:'wrap',gap:'10px',padding:'5px',borderBottom:'1px solid black'}}>
              
 
              <Date>
-             <h4 key={h.id}>{formatDate(h.createAte)}</h4>
+             <h6 key={h.id}>{formatDate(h.createAte)}</h6>
             
 
          </Date>  
@@ -34,7 +34,7 @@ function Datecomponent({head}) {
 
              </div>
                     
-                    </a>
+                    </Link>
                 ))}
         
 

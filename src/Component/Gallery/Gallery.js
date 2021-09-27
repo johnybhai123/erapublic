@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Galleryoptions, Galleryoptions1, Galleryoptions2, Galleryoptions3, Logo, Main, Sub } from './Gallery.element'
 import { AiOutlineCamera } from "react-icons/ai";
+import { FiVideo } from "react-icons/fi";
 import Gallerimage from './Gallerimage';
 import GalleryPress from './GalleryPress';
 import Galleryvideo from './Galleryvideo';
@@ -25,12 +26,12 @@ function Gallery({ChangeColor1,ChangeColor2,ChangeColor3}) {
                     <h6>Photo gallery</h6>
                     </Galleryoptions1>
                     <Galleryoptions2 ChangeColor2={ChangeColor2} onClick={() =>{setColor1(false);setColor2(true);setColor3(false)}}>
-                    <Logo>{<AiOutlineCamera/>}</Logo>
-                    <h6>Photo gallery</h6>
+                    <Logo>{<FiVideo/>}</Logo>
+                    <h6>Video gallery</h6>
                 </Galleryoptions2  >
                 <Galleryoptions3 ChangeColor3={ChangeColor3} onClick={() =>{setColor1(false);setColor2(false);setColor3(true)}}>
                 <Logo>{<AiOutlineCamera/>}</Logo>
-                    <h6>Photo gallery</h6>
+                    <h6>Celebration</h6>
                 </Galleryoptions3>
                 </Galleryoptions>
 
