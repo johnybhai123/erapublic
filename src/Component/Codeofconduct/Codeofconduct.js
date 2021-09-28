@@ -1,5 +1,5 @@
 import React from 'react'
-import { Main } from '../Directorpen/Director.element'
+import { Main } from '../AcademicCurriculum/AcademicCurriculum.element'
 import { Directorbackground, Directortext, Guidlines, Leave, Rules } from './Code.element'
 
 function Codeofconduct() {

@@ -1,5 +1,4 @@
 import React from 'react'
-import strongfoundation from '../../images/ManagingDirector.JPG'
 import { Main } from './Md.element'
 function Md() {
     return (

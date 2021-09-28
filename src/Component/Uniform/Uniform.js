@@ -1,5 +1,5 @@
 import React from "react";
-import { Directortext, Main } from "../Directorpen/Director.element";
+import { Directortext, Main } from "../AcademicCurriculum/AcademicCurriculum.element";
 import {
   Directorbackground,
   Nur,

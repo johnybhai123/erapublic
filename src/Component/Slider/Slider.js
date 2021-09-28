@@ -1,10 +1,5 @@
 import React from "react";
-import image1 from "../../images/1.JPG";
-import image2 from "../../images/2.JPG";
-import image3 from "../../images/3.JPG";
-import image4 from "../../images/4.JPG";
-import image5 from "../../images/5.JPG";
-import image6 from "../../images/6.JPG";
+
 import { Carouselcaption } from "./Slider.elements";
 function Slider() {
   return (

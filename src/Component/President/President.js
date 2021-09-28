@@ -1,5 +1,4 @@
 import React from 'react'
-import strongfoundation from '../../images/President_DeepakKusumakar.JPG'
 import { Main } from './President.element'
 function President() {
     return (

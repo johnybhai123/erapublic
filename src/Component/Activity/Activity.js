@@ -1,6 +1,6 @@
 import React from 'react'
+import { Main } from '../AcademicCurriculum/AcademicCurriculum.element'
 import { Directortext } from '../Codeofconduct/Code.element'
-import { Main } from '../Directorpen/Director.element'
 import { Directorbackground, Sub } from './Activity.element'
 
 function Activity() {

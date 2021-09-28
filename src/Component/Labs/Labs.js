@@ -1,6 +1,4 @@
 import React from 'react'
-import { Directortext } from '../Directorpen/Director.element'
-import { Directorbackground } from './Labs.element'
 
 import { Main } from '../Classrooms/Classrooms.element'
 function Labs() {

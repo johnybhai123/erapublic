@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../images/logo.jpg";
 import "./Navbar.css";
 import {  Main, Sub } from "./Navbar.elements";
 
@@ -125,7 +124,7 @@ function Navbar() {
            <Link to="/">
            <a class="navbar-brand text-muted" id='schoologo' >
                 <img
-                  src={logo}
+                  src='https://scontent.fbho4-2.fna.fbcdn.net/v/t1.6435-9/58444143_436425910452332_7305301326781480960_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=CF0K_0qWxigAX-_XgZJ&_nc_ht=scontent.fbho4-2.fna&oh=d0b6608d284a8d2a8ab17eb25d1b691c&oe=61795E68'
                 id='schoolname'
                   class="d-inline-block p-4"
                   alt=""

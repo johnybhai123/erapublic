@@ -1,6 +1,10 @@
 import React from 'react'
-import { Directortext, Main } from '../Directorpen/Director.element'
-import { Directorbackground, Sub } from './AcademicCurriculum.element'
+import {
+  Directorbackground,
+  Sub,
+  Main,
+  Directortext,
+} from "./AcademicCurriculum.element";
 
 function AcademicCurriculum() {
     return (

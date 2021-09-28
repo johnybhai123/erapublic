@@ -1,5 +1,4 @@
 import React from 'react'
-import strongfoundation from '../../images/Principal_DyutiSardesai.JPG'
 import { Main } from './Principal.element'
 function Principal() {
     return (
