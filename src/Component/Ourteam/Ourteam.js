@@ -19,13 +19,26 @@ function Ourteam() {
            {/* <Teamimage></Teamimage>  */}
            <Heading/>
            <Rowcolumn33>
-              <Link to='/Director'>  <Teampeople image={sarita} name='Sarita Budana' designation='Sarita Budana' logo={<FaLinkedin/>}/></Link>
+              <Link to='/Director' style={{textDecoration:'none'}}>  <Teampeople image={sarita} name='Sarita Budana' designation='Director' /></Link>
       
-              <Link to='/Md'>  <Teampeople image={MD} name='Ratna Kusumakar' designation='Managing Director' logo={<FaLinkedin/>}/></Link>
+              <Link to='/Md'  style={{textDecoration:'none'}}>  <Teampeople image={MD} name='Ratna Kusumakar' designation='Managing Director'/></Link>
       
-              <Link to='/president'>  <Teampeople image={President} name='Deepak Kusumakar' designation='President' logo={<FaLinkedin/>}/></Link>
+              <Link to='/president'  style={{textDecoration:'none'}}>  <Teampeople image={President} name='Deepak Kusumakar' designation='President'/></Link>
       
-              <Link to='/principal'>  <Teampeople image={Principal} name='Dyuti Sardesai' designation='Principal' logo={<FaLinkedin/>}/></Link>
+              <Link to='/principal'  style={{textDecoration:'none'}}>  <Teampeople image={Principal} name='Dyuti Sardesai' designation='Principal'/></Link>
+              <Link to='/advisory'  style={{textDecoration:'none'}}>  <Teampeople image='https://choithramschool.com/TEDxChoithramSchoolIndore/images/teams/Rajesh%20Awasthi.jpg' name='Mr. Rajesh Awasthi
+' designation='Advisory board'/></Link>
+      
+      <Link to='/advisory'  style={{textDecoration:'none'}}>  <Teampeople image='https://2.bp.blogspot.com/-EwWH4BWotws/VB05etuQ3uI/AAAAAAAAELQ/VbDkYYfoGFs/s1600/DSC_3662.jpg' name='Mr. Awadhesh Tiwari
+' designation='Advisory board'/></Link>
+
+              <Link to='/advisory'  style={{textDecoration:'none'}}>  <Teampeople image='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png' name='Mrs. Simantini Sardesai 
+' designation='Advisory board'/></Link>
+      
+           
+      
+              <Link to='/advisory'  style={{textDecoration:'none'}}>  <Teampeople image='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png' name='Mr. Satyanarayanji Vohra 
+' designation='Advisory board'/></Link>
       
              
       

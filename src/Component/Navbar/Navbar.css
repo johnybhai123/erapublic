@@ -21,3 +21,41 @@ svg:hover{
 ul{
   z-index: 2;
 }
+
+#schoologo{
+  font-size:30px;
+  font-weight:700;
+  color: black!important;
+ 
+}
+
+#schoolname{
+  width:160px;
+  height:115px;
+}
+
+@media screen and (max-width: 768px) {
+  #schoologo{
+    font-size:15px;
+    font-weight:700;
+  }
+  #schoolname{
+    width:90px;
+    height:105px;
+  }
+  #cbse{
+  
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight:700;
+  }
+}
+
+#cbse{
+  align-self: start;
+  justify-self: end;
+  color: white;
+  padding-top: 15px;
+  /* font-size: 2vh; */
+  font-weight:700;
+}

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Main = styled.div`
 margin:0;
 padding:30px;
-background-color:rgba(0,0,0,0.7);
+background-color:rgb(23,1,85);
 color:white;
 `
 
@@ -16,7 +16,7 @@ justify-content:space-around;
 `
 export const Ul = styled.ul`
 cursor:pointer;
-
+font-weight:600;
 list-style:none;
 display:flex;
 flex-flow: column wrap;

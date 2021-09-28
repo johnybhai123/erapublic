@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Directorbackground = styled.div`
-background-image: url(${process.env.PUBLIC_URL + '/Activity.jpg'});
+background-image: url('');
 height:80vh;
 background-repeat:no-repeat;
 background-size:cover;

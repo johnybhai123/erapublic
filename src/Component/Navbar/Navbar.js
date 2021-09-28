@@ -12,14 +12,7 @@ function Navbar() {
         <Main>
           <div></div> <div></div>
           <p
-            style={{
-              alignSelf: "start",
-              justifySelf: "end",
-              color: "white",
-              paddingTop: "15px",
-              fontSize: "2vh",
-              fontWeight: "700",
-            }}
+           id='cbse'
           >
             CBSE AFFILIATION-#1030413{" "}
           </p>{" "}
@@ -126,15 +119,14 @@ function Navbar() {
           </div>
           <Sub>
             <nav
-              class="navbar navbar-light bg-white"
+              class="navbar navbar-light bg-white" 
               style={{ justifyContent: "start", alignContent: "end"}}
             >
            <Link to="/">
-           <a class="navbar-brand text-muted">
+           <a class="navbar-brand text-muted" id='schoologo' >
                 <img
                   src={logo}
-                  width="100"
-                  height="100"
+                id='schoolname'
                   class="d-inline-block p-4"
                   alt=""
                   
@@ -150,7 +142,7 @@ function Navbar() {
         </Main>
         <nav
           class="navbar navbar-expand-lg navbar-light  py-3  "
-          style={{ backgroundColor: "#00A19D", color: "white" }}
+          style={{ backgroundColor: "#170055", color: "white" }}
         >
           <div class="container-fluid">
             <button
@@ -168,7 +160,7 @@ function Navbar() {
               class="collapse navbar-collapse justify-content-center"
               id="navbarNav"
             >
-              <ul class="navbar-nav">
+              <ul class="navbar-nav" style={{fontWeight:'600'}}>
                 <li class="nav-item">
            <Link style={{textDecoration:'none'}} to="/">
            <a

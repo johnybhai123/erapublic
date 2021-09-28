@@ -54,6 +54,7 @@ background-color:rgb(230,46,52);
 border:none;
 cursor:pointer;
 border-radius:50px;
+font-weight:600;
 &:hover{
 background-color:rgb(191,4,1);
     

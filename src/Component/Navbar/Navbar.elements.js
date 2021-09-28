@@ -38,7 +38,7 @@ export const Main = styled.div`
   grid-template-columns: 0.5fr 0.5fr 1fr 1fr;
   width: 100%;
   height: 7rem;
-  background: #292B2C;
+  background: #170055;
   opacity:0.9;
 `;
 export const Maincall = styled.div`

@@ -61,9 +61,12 @@ export const Sub = styled.div`
 export const P = styled.p`
   text-align: center;
   margin-top: 140px;
+  font-weight:600;
 `;
 export const H1 = styled.h1`
   text-align: center;
+  font-weight:600;
+
 `;
 
 //Component
@@ -88,6 +91,7 @@ export const Imagecomponent = styled.img`
 export const Headingcomponent = styled.div`
   font-size: 20px;
   padding: 3px;
+  font-weight:600;
 `;
 
 export const Descriptioncomponent = styled.div`

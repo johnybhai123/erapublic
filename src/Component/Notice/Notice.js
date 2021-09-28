@@ -51,7 +51,7 @@ function Notice() {
         <Main>
             <Sub>
                <ExclusiveNotice>
-               COVID-19 help-care and information programme.&nbsp;<span style={{color:'red',fontSize:'20px',cursor:'pointer'}}>Exclusive</span>
+              All Notice and Important Communications.&nbsp;<span style={{color:'red',fontSize:'20px',cursor:'pointer'}}>Exclusive</span>
                    </ExclusiveNotice> 
                    <Noticeboard>
                        <ImportantNotoice>

@@ -22,21 +22,23 @@ function Footer() {
           <Ul>
             <Li style={{paddingBottom:'10px'}}>THE NEW ERA PUBLIC SCHOOL</Li>
             <Li style={{padding:'0px 80px',}}>
-              <IoLocationOutline/> &nbsp;Chhota Bangarda Rd, Smruti Nagar, Rukmani Nagar, Indore, Madhya
-              Pradesh 452006, India
+              <IoLocationOutline/> &nbsp;271 - 1/1, 1/2, Chhota Bangarda Main Road , indore
+Pin code – 452001
+
             </Li>
-            <Li style={{padding:'10px 0'}}> <BiPhone/> &nbsp; 0731 261 4700</Li>
-            <Li style={{paddingBottom:'10px'}}><AiOutlineMail/> &nbsp;contact@erapublicschool.com</Li>
-            <Li style={{paddingBottom:'10px'}}> <GoGlobe/> www.erapublicschool.com</Li>
+            <Li style={{padding:'10px 0'}}> <BiPhone/> &nbsp; 0731 2991095</Li>
+            <Li style={{paddingBottom:'10px'}}><AiOutlineMail/> &nbsp;tneps.campus2@gmail.com</Li>
+            <Li style={{paddingBottom:'10px'}}> <GoGlobe/> www.tnepscbse.com</Li>
           </Ul>
         </Footerdescription>
         <Footerlinks>
           <Ul>
-          <a href="https://www2.ed.gov/parents/schools/find/choose/choosing.pdf">  <Li>QUICK LINKS <hr /></Li></a>
-            <Li>SCHOOL BROCHURE <hr /></Li>
-            <Li>CAREERS <hr /></Li>
-            <Li>UPDATES <hr /></Li>
-            <Li>ALUMINI <hr /></Li>
+          <a style={{color: 'white'}} href="https://docs.google.com/spreadsheets/d/1E4y9VzUVDFcrEj4Wfr20gZ0LbWx_VQ5Z/edit#gid=1387076252">  <Li>BOOK LIST <hr /></Li></a>
+          <a style={{color: 'white'}} href="https://docs.google.com/document/d/1m8CoeexrAyFr0n9nX8vcfcKWfuFEL-4P/edit">  <Li>TRANSFER CERTIFICATE <hr /></Li></a>
+          <a style={{color: 'white'}} href="https://drive.google.com/file/d/1hahpcMml0IdGnV0amuabFK-WfRq2egsh/view?usp=sharing">  <Li>SCHOOL BROCHURE <hr /></Li></a>
+          <a style={{color: 'white'}} href="https://drive.google.com/file/d/1ZQ3amxbnnvMtQEo2Au4chjm1dc9LhSBN/view?usp=sharing">  <Li>SCHOOL MANAGEMENT COMMITTEE <hr /></Li></a>
+       
+         
           </Ul>
         </Footerlinks>
         <Footervideo>

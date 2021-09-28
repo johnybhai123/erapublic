@@ -16,22 +16,22 @@ function Gallery({ChangeColor1,ChangeColor2,ChangeColor3}) {
     {color3?ChangeColor3=true:ChangeColor3=false}
     return (
         <Main>
-                <h2>News & Events</h2>
+                <h1>News & Events</h1>
 
             <IconContext.Provider value={{ color: "yellow", size:'30' }}>
             <Sub>
                 <Galleryoptions>
                 <Galleryoptions1 ChangeColor1={ChangeColor1} onClick={()=>{setColor1(true);setColor2(false);setColor3(false)}}>
                     <Logo>{<AiOutlineCamera/>}</Logo>
-                    <h6>Photo gallery</h6>
+                    <h5>Photo gallery</h5>
                     </Galleryoptions1>
                     <Galleryoptions2 ChangeColor2={ChangeColor2} onClick={() =>{setColor1(false);setColor2(true);setColor3(false)}}>
                     <Logo>{<FiVideo/>}</Logo>
-                    <h6>Video gallery</h6>
+                    <h5>Video gallery</h5>
                 </Galleryoptions2  >
                 <Galleryoptions3 ChangeColor3={ChangeColor3} onClick={() =>{setColor1(false);setColor2(false);setColor3(true)}}>
                 <Logo>{<AiOutlineCamera/>}</Logo>
-                    <h6>Celebration</h6>
+                    <h5>Celebration</h5>
                 </Galleryoptions3>
                 </Galleryoptions>
 
