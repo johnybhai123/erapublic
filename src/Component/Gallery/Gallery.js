@@ -6,6 +6,7 @@ import Gallerimage from './Gallerimage';
 import GalleryPress from './GalleryPress';
 import Galleryvideo from './Galleryvideo';
 import { IconContext } from "react-icons";
+import { P } from './Gallery.element';
 
 function Gallery({ChangeColor1,ChangeColor2,ChangeColor3}) {
     const [color1,setColor1]=useState(1)
@@ -23,15 +24,15 @@ function Gallery({ChangeColor1,ChangeColor2,ChangeColor3}) {
                 <Galleryoptions>
                 <Galleryoptions1 ChangeColor1={ChangeColor1} onClick={()=>{setColor1(true);setColor2(false);setColor3(false)}}>
                     <Logo>{<AiOutlineCamera/>}</Logo>
-                    <h5>Photo gallery</h5>
+                    <P>Photo gallery</P>
                     </Galleryoptions1>
                     <Galleryoptions2 ChangeColor2={ChangeColor2} onClick={() =>{setColor1(false);setColor2(true);setColor3(false)}}>
                     <Logo>{<FiVideo/>}</Logo>
-                    <h5>Video gallery</h5>
+                    <P>Video gallery</P>
                 </Galleryoptions2  >
                 <Galleryoptions3 ChangeColor3={ChangeColor3} onClick={() =>{setColor1(false);setColor2(false);setColor3(true)}}>
                 <Logo>{<AiOutlineCamera/>}</Logo>
-                    <h5>Celebration</h5>
+                    <P>Celebration</P>
                 </Galleryoptions3>
                 </Galleryoptions>
 
