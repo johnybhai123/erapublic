@@ -19,12 +19,12 @@ import { Directorbackground, Main1, Sub1 } from "./Contact.element";
 
 function Contact() {
   let history = useHistory();
-  const [firstname, setFirstname] = useState();
-  const [lastname, setLastname] = useState();
-  const [email, setEmail] = useState();
-  const [city, setCity] = useState();
-  const [mobile, setMobile] = useState();
-  const [description, setDescription] = useState();
+  const [firstname, setFirstname] = useState('');
+  const [lastname, setLastname] = useState('');
+  const [email, setEmail] = useState('');
+  const [city, setCity] = useState('');
+  const [mobile, setMobile] = useState('');
+  const [description, setDescription] = useState('');
   const [load, setLoad] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
