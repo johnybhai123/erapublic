@@ -354,7 +354,7 @@ function Navbar() {
                     <hr className="dropdown-divider" />
 
                     <li>
-                    <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/drive/folders/1SME3USPEZa3W8KhJ5Oa1lNmtXHMflNEd"  >
+                    <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/file/d/1XGW4-T1sTeUH7X8SsDvUtM43skc8GUXB/view?usp=sharing"  >
                     <a className="dropdown-item">
                         Admission Form
                       </a></a>

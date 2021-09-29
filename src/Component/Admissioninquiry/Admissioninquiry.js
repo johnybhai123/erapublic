@@ -18,7 +18,7 @@ function Admissioninquiry() {
       try {
         setLoad(true)
         const Response = await axios.post(
-          `http://127.0.0.1:8000/contact/`,{
+          `https://erapublicschool.herokuapp.com/contact/`,{
             first_name:firstname,
             last_name:lastname,
             city:city,

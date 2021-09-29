@@ -11,7 +11,7 @@ function Notice() {
 
         try {
           const Response = await axios.get(
-            `http://127.0.0.1:8000/schoolbyte/`
+            `http://erapublicschool.herokuapp.com/schoolbyte/`
           ).then(res=>{
           setHead(res.data)
           
@@ -29,7 +29,7 @@ function Notice() {
 
         try {
           const Response = await axios.get(
-            `http://127.0.0.1:8000/schoolemportent/`
+            `http://erapublicschool.herokuapp.com/schoolemportent/`
           ).then(res=>{
           setImp(res.data)
           
