@@ -132,10 +132,10 @@ function Contact() {
               <h1>Let's talk about Admission.</h1>
               <p>Our School has very simple and Fast Admission Process</p>
              <div style={{ display:'flex',flexWrap:'wrap',flexDirection:'column',gap:'30px'}}>
-             <Component logo={<BsGeoAlt/>} name='271 - 1/1, 1/2, Chhota Bangarda Main Road , indore
+             <Component logo={<BsGeoAlt/>} name='271 - 1/2, Chhota Bangarda Main Road , indore
 Pin code – 452001
 '/>
-              <Component logo={<AiOutlinePhone/>} name='Phone-0731 2991095'/>
+              <Component logo={<AiOutlinePhone/>} name='Phone-0731-2991095,+91-8109100056'/>
               <Component logo={<AiOutlineMail/>} name='tneps.campus2@gmail.com'/>
              </div>
              

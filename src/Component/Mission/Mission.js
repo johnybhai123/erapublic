@@ -8,8 +8,8 @@ function Mission() {
         <Main>
                    <Directorbackground>
                 <Directortext>
-                    <h1>Mision</h1>
-                    <p>The New Era Public School| <span>Mision</span> </p>
+                    {/* <h1>Mision</h1>
+                    <p>The New Era Public School| <span>Mision</span> </p> */}
                 </Directortext>
       
             </Directorbackground> 

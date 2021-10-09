@@ -28,11 +28,11 @@ function Gallery({ChangeColor1,ChangeColor2,ChangeColor3}) {
                     </Galleryoptions1>
                     <Galleryoptions2 ChangeColor2={ChangeColor2} onClick={() =>{setColor1(false);setColor2(true);setColor3(false)}}>
                     <Logo>{<FiVideo/>}</Logo>
-                    <P>Video gallery</P>
+                    <P>Celebration Video</P>
                 </Galleryoptions2  >
                 <Galleryoptions3 ChangeColor3={ChangeColor3} onClick={() =>{setColor1(false);setColor2(false);setColor3(true)}}>
                 <Logo>{<AiOutlineCamera/>}</Logo>
-                    <P>Celebration</P>
+                    <P>Function Photo</P>
                 </Galleryoptions3>
                 </Galleryoptions>
 

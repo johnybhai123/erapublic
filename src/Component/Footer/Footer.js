@@ -22,19 +22,19 @@ function Footer() {
           <Ul>
             <Li style={{paddingBottom:'10px'}}>THE NEW ERA PUBLIC SCHOOL</Li>
             <Li style={{padding:'0px 80px',}}>
-              <IoLocationOutline/> &nbsp;271 - 1/1, 1/2, Chhota Bangarda Main Road , indore
+              <IoLocationOutline/> &nbsp;271, 1/2, Chhota Bangarda Main Road , indore
 Pin code – 452001
 
             </Li>
-            <Li style={{padding:'10px 0'}}> <BiPhone/> &nbsp; 0731 2991095</Li>
-            <Li style={{paddingBottom:'10px'}}><AiOutlineMail/> &nbsp;tneps.campus2@gmail.com</Li>
-            <Li style={{paddingBottom:'10px'}}> <GoGlobe/> www.tnepscbse.com</Li>
+            <Li style={{padding:'10px 0'}}> <BiPhone/> <a href="tel:07312991095" style={{textDecoration:'none',color:'white'}}>&nbsp; 0731 2991095,8109100056</a></Li>
+            <Li style={{paddingBottom:'10px'}}><AiOutlineMail/> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tneps.campus2@gmail.com" style={{textDecoration:'none',color:'white'}}>&nbsp;tneps.campus2@gmail.com</a></Li>
+            <Li style={{paddingBottom:'10px'}}> <GoGlobe/><a href="https://www.tnepscbse.com" style={{textDecoration:'none',color:'white'}}> www.tnepscbse.com</a></Li>
           </Ul>
         </Footerdescription>
         <Footerlinks>
           <Ul>
-          <a style={{color: 'white'}} href="https://docs.google.com/spreadsheets/d/1E4y9VzUVDFcrEj4Wfr20gZ0LbWx_VQ5Z/edit#gid=1387076252">  <Li>BOOK LIST <hr /></Li></a>
-          <a style={{color: 'white'}} href="https://docs.google.com/document/d/1m8CoeexrAyFr0n9nX8vcfcKWfuFEL-4P/edit">  <Li>TRANSFER CERTIFICATE <hr /></Li></a>
+          <a style={{color: 'white'}} href="https://drive.google.com/file/d/1aDmY-r0fJmzxeeZzzgjoAX6azEneayWp/view?usp=sharing">  <Li>BOOK LIST <hr /></Li></a>
+          <a style={{color: 'white'}} href="https://drive.google.com/file/d/1bQOAIhordjyEj90yxKWJNaAuytZp23q4/view?usp=sharing">  <Li>TRANSFER CERTIFICATE <hr /></Li></a>
           <a style={{color: 'white'}} href="https://drive.google.com/file/d/1hahpcMml0IdGnV0amuabFK-WfRq2egsh/view?usp=sharing">  <Li>SCHOOL BROCHURE <hr /></Li></a>
           <a style={{color: 'white'}} href="https://drive.google.com/file/d/1ZQ3amxbnnvMtQEo2Au4chjm1dc9LhSBN/view?usp=sharing">  <Li>SCHOOL MANAGEMENT COMMITTEE <hr /></Li></a>
        

@@ -8,8 +8,8 @@ function Vission() {
         <Main>
                    <Directorbackground>
                 <Directortext>
-                    <h1>Vision</h1>
-                    <p>The New Era Public School| <span>Vision</span> </p>
+                    {/* <h1>Vision</h1>
+                    <p>The New Era Public School| <span>Vision</span> </p> */}
                 </Directortext>
       
             </Directorbackground> 

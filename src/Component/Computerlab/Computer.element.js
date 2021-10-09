@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Directorbackground = styled.div`
-background-image: url('https://scontent.fbho4-2.fna.fbcdn.net/v/t1.6435-9/243006855_591717222182355_8501833702953860932_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=jfjshvy6EyAAX8A7qNc&_nc_ht=scontent.fbho4-2.fna&oh=8a6be533e891ce79af7f1cf92eaa9a9e&oe=6178E207');
+background-image: url('https://scontent.fbho4-2.fna.fbcdn.net/v/t1.6435-9/243054964_591716202182457_6860487110440298584_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=Hc8o_bcug80AX-JL8Yu&_nc_ht=scontent.fbho4-2.fna&oh=16459cf907e99f3cfa6c84368cf897e2&oe=617968C8');
 height:80vh;
 background-repeat:no-repeat;
 background-size:cover;
