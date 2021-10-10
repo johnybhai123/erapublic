@@ -21,10 +21,12 @@ import Principal from "./Component/Principal/Principal";
 import Kindergarten from "./Component/Kindergarten/Kindergarten";
 import Activityroom from "./Component/Activityroom/Activityroom";
 import Transport from "./Component/Transport/Transport";
+import ScrollToTop from "./Component/ScrollToTop";
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop/>
           <Navbar></Navbar>
         <Switch>
 
