@@ -315,15 +315,15 @@ function Navbar() {
                       </a></a>
                     </li>
                     <hr className="dropdown-divider" />
-
+{/* 
                     <li>
                     <Link style={{textDecoration:'none',color: "black"}} to="/earlychildhood"  >
                     <a className="dropdown-item">
                         Examination
                       </a></Link>
-                    </li>
+                    </li> */}
                     <li>
-                      <hr className="dropdown-divider" />
+                      {/* <hr className="dropdown-divider" /> */}
                     </li>
                     <li>
                     <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/file/d/1P3lIFvAXhr5KNqwFHqUeDtLzdhKJDgPk/view?usp=sharing"  >
