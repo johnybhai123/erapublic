@@ -3,7 +3,7 @@ import styled, { css, keyframes } from "styled-components";
 const slideAnimation1 = keyframes`
 0% { margin-left:0% }
 
-100% { margin-left:0% }
+100% { margin-left:-5% }
 `;
 const slideAnimation2 = keyframes`
 0% { margin-left:0% }

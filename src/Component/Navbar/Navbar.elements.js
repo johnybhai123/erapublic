@@ -59,3 +59,33 @@ export const Col2 = styled.div`
   grid-template-columns: 1fr 1fr;
 `;
 
+
+export const Li = styled.li`
+width: 100%;
+display:inline-block;
+word-wrap: break-word;
+`
+export const Ul = styled.ul`
+display:none;
+top:248px;
+left:200px;
+position:absolute;
+background:white;
+width:400px;
+padding:20px;
+@media screen and (max-width:768px){
+top:0px;
+left:0px;
+position:absolute;
+background:white;
+width:300px;
+padding:10px;
+}
+`
+
+export const A = styled.a`
+cursor:pointer;
+&:hover .adv {
+  display: block;
+}
+`

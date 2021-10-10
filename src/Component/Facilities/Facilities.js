@@ -30,16 +30,17 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
         <div
           style={{
             display: "flex",
-            gap: "70px",
+            gap: "60px",
             maxWidth: "100%",
             flexWrap: "wrap",
           }}
         >
-          <Component
+       <Link to='/'>
+       <Component
             image="https://scontent.fbho4-2.fna.fbcdn.net/v/t1.6435-9/243007430_591715908849153_6866976988542216486_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=zOFV-ftBqTQAX8RgFYz&_nc_ht=scontent.fbho4-2.fna&oh=73474d92d76a4d3b4664bbc95990978a&oe=6178C5D1"
             heading="Campus"
-            description="Four Acre Campus with 24x7 CCTV surveillance "
-          />
+            description="Four Acre Campus"
+          /></Link>
           <Link to="/classroom">
             <Component
               image="https://scontent.fbho4-2.fna.fbcdn.net/v/t1.6435-9/243006212_591716055515805_374113974095213513_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=iB06cNoCa0kAX-BBOmP&tn=M4Zyun6SeeqEsVTT&_nc_ht=scontent.fbho4-2.fna&oh=8fac0141b97a1e0e2779776f5dca8434&oe=6179581C"
@@ -58,7 +59,7 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
             <Component
               image="https://scontent.fbho4-2.fna.fbcdn.net/v/t1.6435-9/243238205_591715468849197_1484819458339817203_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=u-TKP5ETmNsAX9T6DKY&tn=M4Zyun6SeeqEsVTT&_nc_ht=scontent.fbho4-2.fna&oh=a016299045032dc7eba07d0506b05be3&oe=61779203"
               heading="Laboratory "
-              description="Science labs-Physics, Chemistry & Biology"
+              description="Science labs"
             />
           </Link>
         </div>

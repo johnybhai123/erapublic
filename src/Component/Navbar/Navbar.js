@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import {  Main, Sub } from "./Navbar.elements";
+import {  A, Li, Main, Sub, Ul } from "./Navbar.elements";
 
 import { IconContext } from "react-icons/lib";
 function Navbar() {
@@ -227,12 +227,29 @@ function Navbar() {
                     </li>
                     <hr className="dropdown-divider" />
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/ourteam"  >
-                    <a className="dropdown-item">
-                        Our Team
-                      </a></Link>
+                 <A>
+                 <a className="dropdown-item advisory">
+                        Advisory Board
+                      </a>
+                        <Ul className='adv'>
+                    <Li>Rajesh Awasthi (Principal of Choithram school)</Li>
+                    <hr className="dropdown-divider" />
+
+                    <Li>Awdhesh Tiwari (Director of Ideal International School)</Li>
+                    <hr className="dropdown-divider" />
+
+                    <Li>Simantini Sardesai (CEO Sandipani Foundation)</Li>
+                    <hr className="dropdown-divider" />
+                    <Li>Satyanarayanji Vohra (Advisor of Sarafa Vidya niketan)</Li>
+
+                      </Ul>
+                 </A>
+                    
                     </li>
                     <hr className="dropdown-divider" />
+
+                    
+                    
 
                      <li>
                      <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/file/d/1ZV8mzuh6VsNfFOphhkm6MWHPIJFdAZPt/view?usp=sharing"  >
