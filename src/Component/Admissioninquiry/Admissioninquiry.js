@@ -8,7 +8,6 @@ function Admissioninquiry() {
   const [lastname,setLastname]=useState('')
   const [classn,setClassn]=useState('')
   const [lastschool,setLastschool]=useState('')
-  // const [lastname,setLastname]=useState('')
   const [email,setEmail]=useState('')
   const [city,setCity]=useState('')
   const [mobile,setMobile]=useState('')
@@ -19,6 +18,8 @@ function Admissioninquiry() {
     
     const createPost = async () => {
       try {
+        console.log(lastschool,classn)
+
         setLoad(true)
         const Response = await axios.post(
           `https://erapublicschool.herokuapp.com/contact/`,{
