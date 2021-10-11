@@ -13,7 +13,7 @@ const slideAnimation2 = keyframes`
 const slideAnimation3 = keyframes`
 0% { margin-left:-100% }
 
-100% { margin-left:-200% }
+100% { margin-left:-190% }
 `;
 
 export const Main = styled.div`
@@ -54,7 +54,7 @@ export const Sub = styled.div`
   transition-timing-function: ease-out;
 
   @media screen and (max-width: 768px) {
-    padding: 20px;
+    padding:50px;
   }
 `;
 

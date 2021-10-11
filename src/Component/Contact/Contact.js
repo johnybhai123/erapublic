@@ -21,10 +21,12 @@ function Contact() {
   let history = useHistory();
   const [firstname, setFirstname] = useState('');
   const [lastname, setLastname] = useState('');
-  const [email, setEmail] = useState('');
-  const [city, setCity] = useState('');
-  const [mobile, setMobile] = useState('');
-  const [description, setDescription] = useState('');
+  const [classn, setClassn] = useState("");
+  const [lastschool, setLastschool] = useState("");
+  const [email, setEmail] = useState("");
+  const [city, setCity] = useState("");
+  const [mobile, setMobile] = useState("");
+  const [description, setDescription] = useState("");
   const [load, setLoad] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -40,6 +42,8 @@ function Contact() {
             email: email,
             mobile: mobile,
             description: description,
+            classn: classn,
+            lastschool: lastschool,
           })
           .then((res) => {
             setLoad(false);
@@ -100,6 +104,20 @@ function Contact() {
                   />
                   <Input
                     type="text"
+                    placeholder="Last School"
+                    value={lastschool}
+                    onChange={(e) => setLastschool(e.target.value)}
+                    required
+                  />
+                  <Input
+                    type="text"
+                    placeholder="Class"
+                    value={classn}
+                    onChange={(e) => setClassn(e.target.value)}
+                    required
+                  />
+                  <Input
+                    type="text"
                     placeholder="Phone"
                     value={mobile}
                     onChange={(e) => setMobile(e.target.value)}
@@ -131,14 +149,29 @@ function Contact() {
             <Talk>
               <h1>Let's talk about Admission.</h1>
               <p>Our School has very simple and Fast Admission Process</p>
-             <div style={{ display:'flex',flexWrap:'wrap',flexDirection:'column',gap:'30px'}}>
-             <Component logo={<BsGeoAlt/>} name='271 - 1/2, Chhota Bangarda Main Road , indore
+              <div
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  flexDirection: "column",
+                  gap: "30px",
+                }}
+              >
+                <Component
+                  logo={<BsGeoAlt />}
+                  name="271 - 1/2, Chhota Bangarda Main Road , indore
 Pin code – 452001
-'/>
-              <Component logo={<AiOutlinePhone/>} name='Phone-0731-2991095,+91-8109100056'/>
-              <Component logo={<AiOutlineMail/>} name='tneps.campus2@gmail.com'/>
-             </div>
-             
+"
+                />
+                <Component
+                  logo={<AiOutlinePhone />}
+                  name="Phone-0731-2991095,+91-8109100056"
+                />
+                <Component
+                  logo={<AiOutlineMail />}
+                  name="tneps.campus2@gmail.com"
+                />
+              </div>
             </Talk>
           </Sub>
         </Main>

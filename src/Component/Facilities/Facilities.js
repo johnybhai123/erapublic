@@ -66,7 +66,7 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
         <div
           style={{
             display: "flex",
-            gap: "50px",
+            gap: "30px",
             maxWidth: "100%",
             flexWrap: "wrap",
           }}
@@ -128,7 +128,7 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
             <Component
               image='https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/243027734_591715838849160_7911354219088593251_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=yUCSdqoIvdAAX_9O76w&_nc_ht=scontent.fbho4-1.fna&oh=e9261eb724a362329dbbc0c832bf4782&oe=6177869D'
               heading="Computer Lab "
-              description="Computer Lab With Secure Internet for kids"
+              description="Computer & Secure Wifi for kids"
             />
           </Link>
         </div>
