@@ -72,7 +72,7 @@ export const Ul = styled.ul`
 display:${({ Changedisplay }) => (Changedisplay ? "block" : "none")};
 
 top:248px;
-left:200px;
+left:270px;
 position:absolute;
 background:white;
 width:400px;

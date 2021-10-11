@@ -65,8 +65,8 @@ function Admissioninquiry() {
           <Input type='text' placeholder='Parent Name' value={lastname} onChange={(e)=>setLastname(e.target.value)} required/>
           </div>
           <div style={{display:'flex',flexFlow:'column wrap',gap:'20px',marginTop:'20px'}}>
-          <Input type='text' placeholder='Last School' value={lastschool} onChange={(e)=>setLastschool(e.target.value)} required/>
-          <Input type='text' placeholder='Class' value={classn} onChange={(e)=>setClassn(e.target.value)} required/>
+         
+         
 
           <Input type='email' placeholder='Email' value={email} onChange={(e)=>setEmail(e.target.value)} required/>
           <Input type='text' placeholder='Phone' value={mobile} onChange={(e)=>setMobile(e.target.value)} required/>
