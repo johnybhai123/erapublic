@@ -257,6 +257,13 @@ function Navbar({Changedisplay}) {
                     </li>
                     <hr className="dropdown-divider" />
 
+<li>
+<Link style={{textDecoration:'none',color: "black"}} to="/schoolman"  >
+<a className="dropdown-item">
+    School management Committee
+  </a></Link>
+</li>
+<hr className="dropdown-divider" />
                     
                     
 

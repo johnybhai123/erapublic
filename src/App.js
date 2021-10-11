@@ -22,6 +22,7 @@ import Kindergarten from "./Component/Kindergarten/Kindergarten";
 import Activityroom from "./Component/Activityroom/Activityroom";
 import Transport from "./Component/Transport/Transport";
 import ScrollToTop from "./Component/ScrollToTop";
+import Schoolmanagementcommittee from "./Component/Schoolmanagementcommittee/schoolmanagement";
 function App() {
   return (
     <div className="App">
@@ -67,6 +68,7 @@ function App() {
           <Route path="/kinder" exact component={Kindergarten}/>
           <Route path="/activity" exact component={Activityroom}/>
           <Route path="/transportation" exact component={Transport}/>
+          <Route path="/schoolman" exact component={Schoolmanagementcommittee}/>
 
           
 
