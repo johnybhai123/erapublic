@@ -69,7 +69,8 @@ display:inline-block;
 word-wrap: break-word;
 `
 export const Ul = styled.ul`
-display:none;
+display:${({ Changedisplay }) => (Changedisplay ? "block" : "none")};
+
 top:248px;
 left:200px;
 position:absolute;
@@ -88,7 +89,4 @@ padding:10px;
 
 export const A = styled.a`
 cursor:pointer;
-&:hover .adv {
-  display: block;
-}
 `

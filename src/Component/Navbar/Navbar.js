@@ -1,10 +1,17 @@
-import React from "react";
+import React,{ useState} from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import {  A, Li, Main, Sub, Ul } from "./Navbar.elements";
 
 import { IconContext } from "react-icons/lib";
-function Navbar() {
+function Navbar({Changedisplay}) {
+  const [dis,setDis] = useState(false)
+  if(dis){
+    Changedisplay=true;
+  }else{
+    Changedisplay=false;
+
+  }
   return (
     <>
       <IconContext.Provider value={{ color: "black" }}>
@@ -118,7 +125,8 @@ function Navbar() {
           </div>
           <Sub>
             <nav
-              class="navbar navbar-light bg-white" 
+              class="navbar navbar-light bg-white"
+              
               style={{ justifyContent: "start", alignContent: "end"}}
             >
            <Link to="/">
@@ -152,6 +160,7 @@ function Navbar() {
               aria-controls="navbarNav"
               aria-expanded="false"
               aria-label="Toggle navigation"
+              style={{background:'white'}}
             >
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -227,11 +236,11 @@ function Navbar() {
                     </li>
                     <hr className="dropdown-divider" />
                     <li>
-                 <A>
+                 <A  onClick={()=>setDis(!dis)} >
                  <a className="dropdown-item advisory">
                         Advisory Board
                       </a>
-                        <Ul className='adv'>
+                        <Ul className='adv' Changedisplay={Changedisplay}>
                     <Li>Rajesh Awasthi (Principal of Choithram school)</Li>
                     <hr className="dropdown-divider" />
 
