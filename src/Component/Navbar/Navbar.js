@@ -140,8 +140,8 @@ function Navbar() {
           </Sub>
         </Main>
         <nav
-          class="navbar navbar-expand-lg navbar-light  py-3  "
-          style={{ backgroundColor: "#170055", color: "white" }}
+          class="navbar navbar-expand-lg navbar-light  py-3  back"
+          
         >
           <div class="container-fluid">
             <button

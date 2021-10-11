@@ -59,3 +59,12 @@ ul{
   /* font-size: 2vh; */
   font-weight:700;
 }
+.back{
+  background:#170055!important;
+  color:white!important;
+@media screen and (max-width:768px){
+  background:white!important;
+  color:black!important;
+}
+
+}

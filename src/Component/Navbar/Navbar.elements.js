@@ -40,6 +40,9 @@ export const Main = styled.div`
   height: 7rem;
   background: #170055;
   opacity:0.9;
+  @media screen and (max-width:768px){
+    background:white;
+  }
 `;
 export const Maincall = styled.div`
   display: grid;
