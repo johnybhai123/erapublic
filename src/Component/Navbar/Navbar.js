@@ -458,26 +458,30 @@ function Navbar({Changedisplay}) {
                   <ul
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
-                    style={{width:'50%'}}
+                  
                   >
                
 
                     <li style={{overflowdWrap:'break-word'}}>
                     <Link style={{textDecoration:'none',color: "black"}} to="/"  >
-                    <a className="dropdown-item" >
-                        Rajesh Awasthi(Principal of Choithram)
+                    <a className="dropdown-item"  >
+                        Rajesh Awasthi <br />
+                        (Principal of Choithram)
                       </a>
                       <hr className="dropdown-divider" />
                     <a className="dropdown-item">
-                    Awdhesh Tiwari (Director of Ideal International School)
+                    Awdhesh Tiwari <br />
+                     (Director of Ideal International School)
                       </a>
                       <hr className="dropdown-divider" />
                     <a className="dropdown-item">
-                    Simantini Sardesai (CEO Sandipani Foundation)
+                    Simantini Sardesai <br />
+                    (CEO Sandipani Foundation)
                       </a>
                       <hr className="dropdown-divider" />
                     <a className="dropdown-item">
-                    Satyanarayanji Vohra (Advisor of Sarafa Vidya niketan)
+                    Satyanarayanji Vohra <br />
+                    (Advisor of Sarafa Vidya niketan)
                       </a>
                       
                       
