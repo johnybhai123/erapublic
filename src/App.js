@@ -56,7 +56,7 @@ function App() {
           <Route path="/inquiry" exact component={Admissioninquiry}/>
           <Route path="/schoolbyte/:id" exact component={Noticedescription}/>
           <Route path="/schoolemportent/:id" exact component={Importantdescription}/>
-          <Route path="/foundation" exact component={Strongfoundation}/>
+          <Route path="/foundation" exact component={props=><Strongfoundation {...props}/>}/>
           <Route path="/vision" exact component={Vission}/>
           <Route path="/mission" exact component={Mission}/>
           <Route path="/Tm" exact component={Teachingmethodlogy}/>
