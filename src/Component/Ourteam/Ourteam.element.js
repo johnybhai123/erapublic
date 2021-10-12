@@ -88,7 +88,7 @@ cursor:pointer;
 
 @media screen and (max-width:768px){
 grid-template-columns:1fr;
-grid-template-rows:repeat(6, 1fr);
+grid-template-rows:repeat(4, 1fr);
 row-gap:40px;
 column-gap:10px;
 padding:30px;

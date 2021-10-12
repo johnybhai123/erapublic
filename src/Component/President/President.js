@@ -1,4 +1,5 @@
 import React from 'react'
+import { Img } from '../Strongfoundation/Strongfoundation.element'
 import { Main } from './President.element'
 function President() {
     return (
@@ -6,7 +7,7 @@ function President() {
             <h1 style={{color:'green'}}>PRESIDENT MESSAGE  </h1>
             <h5 style={{color:'blue'}}>"Education is not preparation of life, education is life itself." </h5>
             <hr />
-            <img src='https://scontent-bom1-2.xx.fbcdn.net/v/t1.6435-9/243214033_591764485510962_8095304649853287399_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=NAvfzxzBqa4AX_tPKCJ&_nc_ht=scontent-bom1-2.xx&oh=ccf843e8a0611ac4e7eb412dfe76173d&oe=6175DEA5' style={{height:'400px',width:'40vw',display:'flex',margin:'auto',border:'1px solid grey',padding:'10px'}} alt="" />
+            <Img src='https://scontent-bom1-2.xx.fbcdn.net/v/t1.6435-9/243214033_591764485510962_8095304649853287399_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=NAvfzxzBqa4AX_tPKCJ&_nc_ht=scontent-bom1-2.xx&oh=ccf843e8a0611ac4e7eb412dfe76173d&oe=6175DEA5' alt="" />
             <p style={{padding:'40px 0 0 0'}}>Our school is constantly scaling new heights with excellent professionals training our children in a range of co-curricular activities so that they evolve as excellent individuals who have honed their skills in the microcosm of the school and are equipped to lead and inspire in the microcosm of the world. We are very glad to say that our school is being upgraded till Class XII. The school always tries its best to maintain the highest quality academic standard and provide the wonderful environment for studies.. "Imagination is more important than knowledge. For while knowledge defines all we currently know and understand, imagination points to all we mightyet discover and create."</p>
         </Main>
     )

@@ -21,19 +21,7 @@ function Ourteam() {
               <Link to='/president'  style={{textDecoration:'none'}}>  <Teampeople image='https://scontent.fbho4-2.fna.fbcdn.net/v/t1.6435-9/243214033_591764485510962_8095304649853287399_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=NAvfzxzBqa4AX-9xvGZ&_nc_ht=scontent.fbho4-2.fna&oh=843c8f7548bfdd08ecb54425418571f8&oe=6179D325' name='Deepak Kusumakar' designation='President'/></Link>
       
               <Link to='/principal'  style={{textDecoration:'none'}}>  <Teampeople image='https://scontent.fbho4-2.fna.fbcdn.net/v/t1.6435-9/243086802_591764482177629_5986111960242541710_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=3hNr_rwmzf4AX-QD_tk&_nc_ht=scontent.fbho4-2.fna&oh=e4e52961481ecd2924f48fcec45f1614&oe=61770040' name='Dyuti Sardesai' designation='Principal'/></Link>
-              {/* <Link to='/advisory'  style={{textDecoration:'none'}}>  <Teampeople image='https://choithramschool.com/TEDxChoithramSchoolIndore/images/teams/Rajesh%20Awasthi.jpg' name='Mr. Rajesh Awasthi
-' designation='Advisory board'/></Link> */}
-      
-      {/* <Link to='/advisory'  style={{textDecoration:'none'}}>  <Teampeople image='https://2.bp.blogspot.com/-EwWH4BWotws/VB05etuQ3uI/AAAAAAAAELQ/VbDkYYfoGFs/s1600/DSC_3662.jpg' name='Mr. Awadhesh Tiwari
-' designation='Advisory board'/></Link>
-
-              <Link to='/advisory'  style={{textDecoration:'none'}}>  <Teampeople image='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png' name='Mrs. Simantini Sardesai 
-' designation='Advisory board'/></Link>
-      
-           
-      
-              <Link to='/advisory'  style={{textDecoration:'none'}}>  <Teampeople image='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png' name='Mr. Satyanarayanji Vohra 
-' designation='Advisory board'/></Link> */}
+              
       
              
       

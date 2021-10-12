@@ -7,3 +7,15 @@ padding:80px 150px;
     padding:10px;
 }
 `
+export const Img = styled.img`
+height:600px;
+width:800px;
+display:flex;
+margin:auto;
+border:1px solid grey;
+padding:10px;
+@media screen and (max-width:768px){
+    height:300px;
+    width:300px;
+}
+`
