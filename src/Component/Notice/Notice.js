@@ -45,7 +45,7 @@ function Notice() {
     useEffect(()=>{
      fetchPosts()
      fetchPosts1()
-    },[4])
+    },[])
     
     return (
         <Main>
