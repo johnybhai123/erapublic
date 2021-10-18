@@ -11,7 +11,7 @@ function Notice() {
 
         try {
           const Response = await axios.get(
-            `https://erapublicschool.herokuapp.com/schoolemportent/`
+            `https://erapublicschool.herokuapp.com/schoolbyte/`
           ).then(res=>{
           setHead(res.data)
           
@@ -29,7 +29,7 @@ function Notice() {
 
         try {
           const Response = await axios.get(
-            `https://erapublicschool.herokuapp.com/schoolbyte/`
+            `https://erapublicschool.herokuapp.com/schoolemportent/`
           ).then(res=>{
           setImp(res.data)
           
@@ -44,8 +44,6 @@ function Notice() {
       }}
     useEffect(()=>{
      fetchPosts()
-    },[])
-    useEffect(()=>{
      fetchPosts1()
     },[])
     
