@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { Dot3, Dot1, Dot2, Dots, H1, Main, P, Sub } from './Facilities.elements'
+import { Dot3, Dot1, Dot2, Dots, H1, Main, P, Sub, Fac } from './Facilities.elements'
 
 import Component from "./Component";
 import { Link } from "react-router-dom";
@@ -27,13 +27,8 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
         ChangeAnimation2={ChangeAnimation2}
         ChangeAnimation3={ChangeAnimation3}
       >
-        <div
-          style={{
-            display: "flex",
-            gap: "60px",
-            maxWidth: "100%",
-            flexWrap: "wrap",
-          }}
+        <Fac
+      
         >
        <Link to='/'>
        <Component
@@ -62,14 +57,9 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
               description="Science labs"
             />
           </Link>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            gap: "30px",
-            maxWidth: "100%",
-            flexWrap: "wrap",
-          }}
+        </Fac>
+        <Fac
+       
         >
           <Link to="/activity">
             {" "}
@@ -96,14 +86,9 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
               description="Transportation Facility"
             />
           </Link>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            gap: "50px",
-            maxWidth: "100%",
-            flexWrap: "wrap",
-          }}
+        </Fac>
+        <Fac
+      
         >
           <Link to="/kinder">
             {" "}
@@ -131,7 +116,7 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
               description="Computer & Secure Wifi for kids"
             />
           </Link>
-        </div>
+        </Fac>
       </Sub>
       <Dots>
         <Dot1

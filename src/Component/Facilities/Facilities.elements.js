@@ -130,3 +130,12 @@ export const Dot3 = styled.div`
   border-color: ${({ ChangeAnimation3 }) =>
     ChangeAnimation3 ? "red" : "green"};
 `;
+
+
+export const Fac = styled.div`
+display:flex;
+gap:40px;
+@media screen and (max-width: 992px) {
+flex-wrap:wrap;
+}
+`
