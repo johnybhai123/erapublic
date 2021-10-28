@@ -11,7 +11,7 @@ function Strongfoundation() {
         </h5>
         <hr />
         <Img
-          src="https://lh3.googleusercontent.com/RJ81seMIY81Zm8czXt4NczMWRnTf9tULIUwO8Vnt62dLpvBo28ZR0NA0YdXUn7yU_4fppH4o3PAsfvkmKENlUh22_iw1gi-wNkc1u0QVjnp-G1DVueIC7t6j08qfnGCaB3utJubci-8E5sVGkXrfgN8Iw9XkEep3kVIHb3UA7a5BSRb9piRDWcN8iDnAFE9ZML7fGaR8F1mP-FmqD3oytCnjmmYdtY-HCk9LX98dSzp07OD3qw6QZghDUarf5AJqNBl8z4iCnod1lxOXBjMdRKTdmLpnNIaoJGuEUmoSAwjg8CEAT5G-VckjjE4d9G2hRb8QsGzvBusmZrsxRLOAWihvoed19pQztBKyWClil8ginAsQG8oFz7s_F1kvw5DpQpEQgPdkI6Dk_WLFaykE4xu-qIxImM9jMBAtwUDkeOQzti6_rAXk6OBNJ0AaDZBJF76-xhNbCuOIG66OSWHK3s5_p_AZvoOa0w6QCz2SvVsroqQHBHSl5M-x2NTNlw7w_WgrETOwm8io_JKUy9oOOZYvMqI9jAxPtHHzCu_FJhF6hhjwHPwTT78lM5u8xKMdk_KIh8mC_GVm-Y8Htdn_XxvJSOKQGVnoaKpWF8x7u3DgI-Ngnpfssfag-jOZBuATMklkU7ZW_fBPwOHkOfKh5qZDf53HNccgSSAaQ5li0bLD45GvV_Fyw62uj3M-RLg7QZ_Ysd6fzEwj8pdMZjevDek=w1163-h775-no?authuser=0"
+          src="https://icecube-eu-400.icedrive.io/thumbnail?p=QR2IiqyoC17ZI0sSsv.u41GwpLiZ3obycN3bjKgIMaz8xEdzbdiBJTOe6kiJYV_Mj3T93xygqK7TqJhiTe8BD2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped"
           alt=""
         />
         <p style={{ padding: "40px 0 0 0" }}>
