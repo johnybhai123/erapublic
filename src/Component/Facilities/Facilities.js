@@ -30,14 +30,14 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
         <Fac>
           <Link to="/">
             <Component
-              image="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb6oMGbhSIxZM8NynHXSIqcGS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9hphIH1izFoFpWYy.Fqe57EGUQeSNO5sfUqA03.t7qQ2_3mj2yEUd3SdYNOYoOXgJCvY75DE.HjXCyOBMQKubKe6CJ1l8A1oB89dyXkbFoLwl7T84we_K6qogZSxBXY3ug5Pj0jXnuZ3Svt5zfpEcbd"
+              image="http://erapublicschool.herokuapp.com/media/243006855_591717222182355_8501833702953860932_n.jpg"
               heading="Campus"
               description="Four Acre Campus"
             />
           </Link>
           <Link to="/classroom">
             <Component
-              image="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb7hUKsx63e9yXDj5oksrWPBS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9jMzGrdSVBiIgG2G7bu5WYm6pIiJOZiF_uKkLi2LGGCazchuAl7.IKnTO9CnuP1zdVng2ZllP04AhA6KbQPZzoKZWdEwpeR_RovzsUavTvX__IomFBae5RVMLR5EHnl9wiJTIsrlLcy6fhNWsh49_jz"
+              image="http://erapublicschool.herokuapp.com/media/243006855_591717222182355_8501833702953860932_n.jpg"
               heading=" Class Room "
               description=" Digital And Smart Class Room  "
             />
@@ -68,11 +68,12 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
           </Link>
           <Component
             heading=" Seminar "
+            image='http://erapublicschool.herokuapp.com/media/243052124_591717072182370_1730723465015863467_n.jpg'
             description="Auditorium & Audio Visual Room   "
           />
           <Link to="/activity">
             <Component
-              image="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb7vtV_ukIeh7LlBfhVUrNqfS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9h_tl6VrvOlh2iAJ4Mm46_AlpjAH7KP1pg87pfbvGVAT28H8ZYDI12gHn3z.yrVMzWJxkTV_oKLhjD47kZ398IP61L5ty8pE5fldaEDToVAnfMP4i.vaYe8SwipfajqTqI5Pj0jXnuZ3Svt5zfpEcbd"
+              image="http://erapublicschool.herokuapp.com/media/243047458_591715168849227_5570078910238863828_n.jpg"
               heading="Arts"
               description=" Art & Craft, Music and Dance "
             />

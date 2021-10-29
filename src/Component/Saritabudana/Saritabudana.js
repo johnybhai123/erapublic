@@ -11,7 +11,7 @@ function Strongfoundation() {
         </h5>
         <hr />
         <Img
-          src="https://icecube-eu-400.icedrive.io/thumbnail?p=QR2IiqyoC17ZI0sSsv.u41GwpLiZ3obycN3bjKgIMaz8xEdzbdiBJTOe6kiJYV_Mj3T93xygqK7TqJhiTe8BD2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped"
+          src="http://erapublicschool.herokuapp.com/media/243010157_591715132182564_6695466701631776822_n.jpg"
           alt=""
         />
         <p style={{ padding: "40px 0 0 0" }}>

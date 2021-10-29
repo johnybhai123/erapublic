@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Directorbackground = styled.div`
-background-image: url('https://icecube-eu-403.icedrive.io/thumbnail?p=BZWeaH.5dGZLwEOwCQ2krrzAfjnvGDrawjj2LzKnvY2qR7XAYlg1WmY1D2w5FB.Tqmz69UjxbKSWoV9B.6rH9mJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped');
+background-image: url('http://erapublicschool.herokuapp.com/media/243076811_591716142182463_30702599338143971_n.jpg');
 height:80vh;
 background-repeat:no-repeat;
 background-size:cover;

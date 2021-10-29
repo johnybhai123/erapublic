@@ -14,7 +14,7 @@ function Ourteam() {
            {/* <Teamimage></Teamimage>  */}
            <Heading/>
            <Rowcolumn33>
-              <Link to='/Director' style={{textDecoration:'none'}}>  <Teampeople image='https://icecube-eu-400.icedrive.io/thumbnail?p=QR2IiqyoC17ZI0sSsv.u41GwpLiZ3obycN3bjKgIMaz8xEdzbdiBJTOe6kiJYV_Mj3T93xygqK7TqJhiTe8BD2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped' name='Sarita Budana' designation='Director' /></Link>
+              <Link to='/Director' style={{textDecoration:'none'}}>  <Teampeople image='http://erapublicschool.herokuapp.com/media/243010157_591715132182564_6695466701631776822_n.jpg' name='Sarita Budana' designation='Director' /></Link>
       
               <Link to='/Md'  style={{textDecoration:'none'}}>  <Teampeople image='https://icecube-eu-400.icedrive.io/thumbnail?p=eOQAdyfefd_mcp8kBzXTaKM.gc_A4rw2hUh2NIzP3feXag16AhnsEFqShmN.K3W_.WDtrpjgvtRb6a_1gE06YmJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped' name='Ratna Kusumakar' designation='Managing Director'/></Link>
       

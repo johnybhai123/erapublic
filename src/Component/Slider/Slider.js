@@ -21,7 +21,7 @@ function Slider() {
         <div className="carousel-item active">
           <Img
             className="d-block w-100"
-            src="https://icecube-eu-403.icedrive.io/thumbnail?p=s%2B%2FNAiEvwhJj93GXbRyGOA2Rvw0XWMLsyUDANG1wCJq27N9Yh7C4RbthknXPKYoTdygnGP2ic7ZYE90FZuPn5YfOF7wQH7HjC7Dwk8QgY7DqrSc59n%2BlMaLMIygn7XjU&w=1280&h=1280&m=cropped"
+            src="http://erapublicschool.herokuapp.com/media/243080144_591715882182489_5673644056499407793_n.jpg"
             alt="First slide"
           />
           {/* <Carouselcaption>
@@ -32,7 +32,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb46eZu3Jf0_ft7dSVYY1SguS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9ipfZE9A_0A_GXVBE8dTWWUbgUHexV9BamX468859f0aymbq6fv8tMJaRcU9hMlGqafrQsPafA6S_RQiXIbB51YVZYQEw.QjJT6pzrPsjeAuR.n3c0C5XB7dSSWCIiEER85Pj0jXnuZ3Svt5zfpEcbd"
+            src="http://erapublicschool.herokuapp.com/media/243019997_591715658849178_6993503452774393059_n.jpg"
             alt="Second slide"
           />
           {/* <Carouselcaption>
@@ -43,7 +43,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb6oMGbhSIxZM8NynHXSIqcGS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9hphIH1izFoFpWYy.Fqe57EGUQeSNO5sfUqA03.t7qQ2_3mj2yEUd3SdYNOYoOXgJCvY75DE.HjXCyOBMQKubKe6CJ1l8A1oB89dyXkbFoLwl7T84we_K6qogZSxBXY3ug5Pj0jXnuZ3Svt5zfpEcbd"
+            src="http://erapublicschool.herokuapp.com/media/243015080_591715952182482_2729346948280851643_n.jpg"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -54,7 +54,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://icecube-eu-403.icedrive.io/thumbnail?p=BZWeaH.5dGZLwEOwCQ2krrzAfjnvGDrawjj2LzKnvY2qR7XAYlg1WmY1D2w5FB.Tqmz69UjxbKSWoV9B.6rH9mJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped"
+            src="http://erapublicschool.herokuapp.com/media/243029211_591716085515802_1834474687651002025_n.jpg"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -76,7 +76,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb7ozLg4WNnHzSxrN8HBvkaLS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9hU8QqtGk6eIiTVrLwfl_VRJqzq8hjIY2FXdGhmDflxDb10mMpfx86auVBCQi_sZ2IJJAsZU1S_.OScNPtS.QUGG7r8Hg2OtAxh3HowjHo1V2SyznozS6HGtfYGQ2CkBl45Pj0jXnuZ3Svt5zfpEcbd"
+            src="http://erapublicschool.herokuapp.com/media/243076811_591716142182463_30702599338143971_n.jpg"
             alt="Third slide"
           />
           {/* <Carouselcaption>
