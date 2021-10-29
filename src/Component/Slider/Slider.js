@@ -21,7 +21,7 @@ function Slider() {
         <div className="carousel-item active">
           <Img
             className="d-block w-100"
-            src="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb65j7UandjaYZDuYeXcJJQ.S1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9i1uIwUCQ5nCMLaTTwzygrS20DTPiyU1gkcVO.9q6kBqNZMXW9Vh8KNcX3GakWeAsXBUolnf5kYvSPTwMx2b_gGAStTQNh_bqavnyqHttnZgEslSZ4YyJ8pAvb7ksmGeuTXtNjdUo4H.DDjKFqYdhxy"
+            src="https://icecube-eu-403.icedrive.io/thumbnail?p=s%2B%2FNAiEvwhJj93GXbRyGOA2Rvw0XWMLsyUDANG1wCJq27N9Yh7C4RbthknXPKYoTdygnGP2ic7ZYE90FZuPn5YfOF7wQH7HjC7Dwk8QgY7DqrSc59n%2BlMaLMIygn7XjU&w=1280&h=1280&m=cropped"
             alt="First slide"
           />
           {/* <Carouselcaption>
