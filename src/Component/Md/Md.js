@@ -11,7 +11,7 @@ function Md() {
         </h5>
         <hr />
         <Img
-          src="https://icecube-eu-400.icedrive.io/thumbnail?p=eOQAdyfefd_mcp8kBzXTaKM.gc_A4rw2hUh2NIzP3feXag16AhnsEFqShmN.K3W_.WDtrpjgvtRb6a_1gE06YmJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped"
+          src="https://drive.google.com/uc?id=1WwmXR0U-j-cbY8JwkuOLjUgYaz-LjRFH"
           alt=""
         />
         <p style={{ padding: "40px 0 0 0" }}>

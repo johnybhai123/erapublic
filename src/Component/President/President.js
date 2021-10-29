@@ -7,7 +7,7 @@ function President() {
             <h1 style={{color:'green'}}>PRESIDENT MESSAGE  </h1>
             <h5 style={{color:'blue'}}>"Education is not preparation of life, education is life itself." </h5>
             <hr />
-            <Img src='https://icecube-eu-400.icedrive.io/thumbnail?p=1gJDhwKTFpbKANJShpYdFojbVsGx4lgflbV0II9EZOmoiOblbVujI_yUlqm1iYmgZY3iyg3ElKmnwecZRVjGKWJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped' alt="" />
+            <Img src='https://drive.google.com/uc?id=1ztndTs8a2PQIi2ezMl_5uNuiiV-09Zav' alt="" />
             <p style={{padding:'40px 0 0 0'}}>Our school is constantly scaling new heights with excellent professionals training our children in a range of co-curricular activities so that they evolve as excellent individuals who have honed their skills in the microcosm of the school and are equipped to lead and inspire in the microcosm of the world. We are very glad to say that our school is being upgraded till Class XII. The school always tries its best to maintain the highest quality academic standard and provide the wonderful environment for studies.. "Imagination is more important than knowledge. For while knowledge defines all we currently know and understand, imagination points to all we mightyet discover and create."</p>
         </Main>
     )

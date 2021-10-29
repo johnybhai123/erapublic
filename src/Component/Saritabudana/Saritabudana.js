@@ -11,7 +11,7 @@ function Strongfoundation() {
         </h5>
         <hr />
         <Img
-          src="http://erapublicschool.herokuapp.com/media/243010157_591715132182564_6695466701631776822_n.jpg"
+          src="https://drive.google.com/uc?id=1NMB1iVrHDGSiCuR0iaEuqUu-XcvH7K-9"
           alt=""
         />
         <p style={{ padding: "40px 0 0 0" }}>

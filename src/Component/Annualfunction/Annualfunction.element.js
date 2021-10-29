@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Directorbackground = styled.div`
-background-image: url('http://erapublicschool.herokuapp.com/media/243076811_591716142182463_30702599338143971_n.jpg');
+background-image: url('https://drive.google.com/uc?id=1xPPbqm8E0Re73GrB9xLDDy3HXOB7tof8');
 height:80vh;
 background-repeat:no-repeat;
 background-size:cover;
