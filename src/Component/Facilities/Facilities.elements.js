@@ -3,7 +3,7 @@ import styled, { css, keyframes } from "styled-components";
 const slideAnimation1 = keyframes`
 0% { margin-left:0% }
 
-100% { margin-left:-5% }
+100% { margin-left:0% }
 `;
 const slideAnimation2 = keyframes`
 0% { margin-left:0% }
@@ -134,7 +134,8 @@ export const Dot3 = styled.div`
 
 export const Fac = styled.div`
 display:flex;
-gap:40px;
+justify-content:space-evenly;
+gap:35px;
 @media screen and (max-width: 992px) {
 flex-wrap:wrap;
 }
