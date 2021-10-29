@@ -51,7 +51,7 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
           </Link>
           <Link to="/lab">
             <Component
-              image="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb4bVZzZRyjCrUzqpeH5WuAGS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9jK1nmCsF0uvmgfhA5LEUXNhWhsqPwGS5ZLviXx6fZ18FocxiV47c.CxhOglByOZPPraoE.z84yq7RP6D5snp0AlH4CjQllLF6n0dzmTKoiejv2Gjxj3BFwcrNyGVkJYgU5Pj0jXnuZ3Svt5zfpEcbd"
+              image="http://erapublicschool.herokuapp.com/media/243020495_591716008849143_2167807617762565681_n.jpg"
               heading="Laboratory "
               description="Science labs"
             />
@@ -61,7 +61,7 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
           <Link to="/activity">
             {" "}
             <Component
-              image="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb61Gzo47pHglHHgB0HGXl1OS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9ht0BD3R51Cy8Rugq35xRIGgQCLj1ZKbSeDGS9qTX86egBV2cBpDaZHLniPZ_zm2bhOedbOBUY0eyHUhXlMg12gBHQpRs9HfcoVPcWV8zkTJbecBbH2wnFS1gWvOkVDTG05Pj0jXnuZ3Svt5zfpEcbd"
+              image="http://erapublicschool.herokuapp.com/media/243009588_591716282182449_8379969160563946591_n.jpg"
               heading="Activity Room"
               description="Kids Activity Room "
             />
@@ -108,7 +108,7 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
           />
           <Link to="/wifi">
             <Component
-              image="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb6M60iwfZ.xFtcw8.0xMwcWS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9ieXOdw.OhPYCnH7vbpcHC44keCXCgr779FeDTaZkoc2PZCHMNZ1tWmTYfv3C51VY7l07sUwSHK.iwT78lgNUtjtTVlhAF7MY82G05qfATjYWo82hVlXHqY1aiv.Qr62zI5Pj0jXnuZ3Svt5zfpEcbd"
+              image="http://erapublicschool.herokuapp.com/media/243054964_591716202182457_6860487110440298584_n.jpg"
               heading="Computer Lab "
               description="Computer & Secure Wifi for kids"
             />

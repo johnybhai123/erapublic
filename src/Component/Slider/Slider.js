@@ -21,7 +21,7 @@ function Slider() {
         <div className="carousel-item active">
           <Img
             className="d-block w-100"
-            src="http://erapublicschool.herokuapp.com/media/243080144_591715882182489_5673644056499407793_n.jpg"
+            src="https://drive.google.com/uc?id=1Jrp0HTd9DDmpRDkP4gbIcPuw5NvSxfyU"
             alt="First slide"
           />
           {/* <Carouselcaption>
@@ -32,7 +32,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="http://erapublicschool.herokuapp.com/media/243019997_591715658849178_6993503452774393059_n.jpg"
+            src="https://drive.google.com/uc?id=1eLScClqrvDB4K7NyBjCs7WjRI3jjtMuW"
             alt="Second slide"
           />
           {/* <Carouselcaption>
@@ -43,7 +43,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="http://erapublicschool.herokuapp.com/media/243015080_591715952182482_2729346948280851643_n.jpg"
+            src="https://drive.google.com/uc?id=11rIATFazq6a6Bu3hhTsnaMTJ8x9_NFmp"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -54,7 +54,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="http://erapublicschool.herokuapp.com/media/243029211_591716085515802_1834474687651002025_n.jpg"
+            src="https://drive.google.com/uc?id=1xPPbqm8E0Re73GrB9xLDDy3HXOB7tof8"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -65,7 +65,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb65BaWWFVWKkso1bETa5nfjS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9gojKmbupNA_75hJcwqbO16djPRCeYjzxvN2QvZ5Bs8r.3RU3lnr6fVwp9ata45j_LDWv5LB86LMBVq3gvDjvbfrXiJpYjYQJ0a8iOO3OI9z3jK3WYuevxNxbJ9Gtxs8cA5Pj0jXnuZ3Svt5zfpEcbd"
+            src="https://drive.google.com/uc?id=1U-te8BAfrxeaCj4YVzw2qZVGaaR5G336"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -76,7 +76,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="http://erapublicschool.herokuapp.com/media/243076811_591716142182463_30702599338143971_n.jpg"
+            src="https://drive.google.com/uc?id=1m4wAaQ64eUfucfTBU8eq3q_fuuNg7u2d"
             alt="Third slide"
           />
           {/* <Carouselcaption>
