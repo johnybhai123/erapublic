@@ -30,28 +30,28 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
         <Fac>
           <Link to="/">
             <Component
-              image="http://erapublicschool.herokuapp.com/media/243006855_591717222182355_8501833702953860932_n.jpg"
+              image="https://drive.google.com/uc?id=1L91G9pSwDgElQscZVYnzeWE314Oji89w"
               heading="Campus"
               description="Four Acre Campus"
             />
           </Link>
           <Link to="/classroom">
             <Component
-              image="http://erapublicschool.herokuapp.com/media/243006855_591717222182355_8501833702953860932_n.jpg"
+              image="https://drive.google.com/uc?id=1g3H-08V5Y-AbvCj9hrIoYR_t_2jo4waz"
               heading=" Class Room "
               description=" Digital And Smart Class Room  "
             />
           </Link>
           <Link to="/library">
             <Component
-              image="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb6H4lvv1V9XeIHnifiXbwR3S1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9h_nwdqmPFdel1KAZUZox3DxwVaDmS_u0qFsYkNVz1qOTLg3cMVw9TaeY9_iSspNN4MMKYN.vicWAKXZYP9rL5_bjrpQUYtjwFXL5nCHkx7aVKtEbnrdgcjGcM.fKW6ujo5Pj0jXnuZ3Svt5zfpEcbd"
+              image="https://drive.google.com/uc?id=1-qFbwx0rcryi0vINmWNt3JexOAtgAljO"
               heading="Library"
               description="Well equipped Library "
             />
           </Link>
           <Link to="/lab">
             <Component
-              image="http://erapublicschool.herokuapp.com/media/243020495_591716008849143_2167807617762565681_n.jpg"
+              image="https://drive.google.com/uc?id=1FO45KKK9vBk5QekNDgm9AKx2TN-25Abc"
               heading="Laboratory "
               description="Science labs"
             />
@@ -61,26 +61,26 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
           <Link to="/activity">
             {" "}
             <Component
-              image="http://erapublicschool.herokuapp.com/media/243009588_591716282182449_8379969160563946591_n.jpg"
+              image="https://drive.google.com/uc?id=1E8AKtKjn0emHhi3hQah5U9rN2dPXBT4p"
               heading="Activity Room"
               description="Kids Activity Room "
             />
           </Link>
           <Component
             heading=" Seminar "
-            image='http://erapublicschool.herokuapp.com/media/243052124_591717072182370_1730723465015863467_n.jpg'
+            image='https://drive.google.com/uc?id=11obVyNMqMisvCWET5ill3mD5AtqHGKpX'
             description="Auditorium & Audio Visual Room   "
           />
           <Link to="/activity">
             <Component
-              image="http://erapublicschool.herokuapp.com/media/243047458_591715168849227_5570078910238863828_n.jpg"
+              image="https://drive.google.com/uc?id=19QGs_MUWMf2ndBn8EuifEj6IXBNSCZK-"
               heading="Arts"
               description=" Art & Craft, Music and Dance "
             />
           </Link>
           <Link to="/transportation">
             <Component
-                image="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb7cUlwe9jmY3o3xBLqqptiHS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9iGFKT5.NBb02Cn9c.Pqe1duMS5lICvUmGjLNGj5esH0sXFaTyBQ_.dYDWrLXrHPrPtIE2WNMj_V.baHStqpywz9DzB8SiaPisUHUxGZhJbWIKxesSInL4G5rqLec0jPKI5Pj0jXnuZ3Svt5zfpEcbd"
+                image="https://drive.google.com/uc?id=1L91G9pSwDgElQscZVYnzeWE314Oji89w"
               heading="Transportation Facility "
               description="Transportation Facility"
             />
@@ -90,25 +90,26 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
           <Link to="/kinder">
             {" "}
             <Component
-              image="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb5PQiGZ96V9zdWYHIh3aTMmS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9gopsS4oF4PQJht9RsSjsiWZ8RMhT9epQbolharBAY.jhSr7ck13QMnZWzPOMRfvOcrbEPkrHm24EBisv80BjFS8jdwsfLpY4IOCO8K0TnKzpMgukMsr5K5qJQDHey5xkw5Pj0jXnuZ3Svt5zfpEcbd"
+              image="https://drive.google.com/uc?id=1L91G9pSwDgElQscZVYnzeWE314Oji89w"
               heading="Ecofriendly Campus"
               description="Secure and Eco friendly Campus"
             />
           </Link>
           <Link to="/modern">
             <Component
-              image="https://icecube-eu-403.icedrive.io/download?p=03MgP6WfyoV7ravJLXXPQpJPxfxWaLNK.om0e1LyOb4fmYKRj794R._HoTwoibzPS1KUcsCHoCyytXLQKpnxn87bX0JZ3ScffVFeredcu9i3i47XSbcPusTlSJEME.QTnQcnOGsc7B5zsOjBLUpl9rOCSXCFBzPzE6E2Jl3Cby5Mz7CFh0dcV6LYNPHUzUib.ob7qPlNUbDk0fMpHt7kvRYY4Ttp0ffPnBPjGjWoZlI5Pj0jXnuZ3Svt5zfpEcbd"
+              image="https://drive.google.com/uc?id=1SC0rzkXFApexHwh_fKQVwPrZ4POx0Vwf"
               heading=" Sports "
               description=" Well maintained Sports Complex  "
             />
           </Link>
           <Component
             heading="Environment"
+            image='https://drive.google.com/uc?id=11rIATFazq6a6Bu3hhTsnaMTJ8x9_NFmp'
             description="Motivating learning environment "
           />
           <Link to="/wifi">
             <Component
-              image="http://erapublicschool.herokuapp.com/media/243054964_591716202182457_6860487110440298584_n.jpg"
+              image="https://drive.google.com/uc?id=15NByCygIGjQbNoaZjdjHhCd6VzpamhCP"
               heading="Computer Lab "
               description="Computer & Secure Wifi for kids"
             />
