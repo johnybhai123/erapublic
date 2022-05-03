@@ -293,7 +293,7 @@ function Navbar({Changedisplay}) {
                     <hr className="dropdown-divider" />
 
                     <li>
-                    <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/file/d/1dbeZFpe4PDq-GHY3AI7p4j9z60MmsDBG/view?usp=sharing"  >
+                    <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/file/d/1qZJl3Q_xxlM0Va6WdZgvkP5-5Vnsmw-F/view?usp=sharing"  >
                     <a className="dropdown-item">
                         Fee Structure
                       </a></a>
