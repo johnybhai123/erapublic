@@ -9,7 +9,7 @@ const [datestr,setDatestr] = useState()
 
     try {
       const Response = await axios.get(
-        `https://erapublicschool.herokuapp.com/schoolbyte/${props.match.params.id}`
+        `http://newerapublicschool.pythonanywhere.com/schoolbyte/${props.match.params.id}`
       ).then(res=>{
       setHead(res.data)
       setDatestr(res.data.createAte)
