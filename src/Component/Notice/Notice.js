@@ -59,12 +59,12 @@ function Notice() {
                             <Datecomponent head={head}></Datecomponent>
                        
                        </ImportantNotoice>
-                       <ImportantNotoice>
-                            <h1>&nbsp;&nbsp;&nbsp;School Bytes &nbsp;&nbsp;&nbsp;</h1>
-                          <Importantcomponent head={imp}/>
+//                        <ImportantNotoice>
+//                             <h1>&nbsp;&nbsp;&nbsp;School Bytes &nbsp;&nbsp;&nbsp;</h1>
+//                           <Importantcomponent head={imp}/>
                             
 
-                       </ImportantNotoice>
+//                        </ImportantNotoice>
                    </Noticeboard>
             </Sub>
             
