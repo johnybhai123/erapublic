@@ -11,7 +11,7 @@ function Notice() {
 
         try {
           const Response = await axios.get(
-            `https://erapublicschool.herokuapp.com/schoolbyte/`
+            `http://newerapublicschool.pythonanywhere.com/schoolbyte/`
           ).then(res=>{
           setHead(res.data)
           
