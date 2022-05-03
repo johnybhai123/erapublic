@@ -29,7 +29,7 @@ function Notice() {
 
         try {
           const Response = await axios.get(
-            `https://erapublicschool.herokuapp.com/schoolemportent/`
+            `http://newerapublicschool.pythonanywhere.com/schoolemportent/`
           ).then(res=>{
           setImp(res.data)
           
