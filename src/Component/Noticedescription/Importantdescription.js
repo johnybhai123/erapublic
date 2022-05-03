@@ -9,7 +9,7 @@ const [datestr,setDatestr] = useState()
 
     try {
       const Response = await axios.get(
-        `https://johnybhai.pythonanywhere.com/${props.match.params.id}`
+        `http://newerapublicschool.pythonanywhere.com/${props.match.params.id}`
       ).then(res=>{
         console.log(res.data)
       setHead(res.data)
