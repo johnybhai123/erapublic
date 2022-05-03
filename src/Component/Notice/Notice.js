@@ -29,7 +29,7 @@ function Notice() {
 
         try {
           const Response = await axios.get(
-            `http://newerapublicschool.pythonanywhere.com/schoolemportent/`
+            `https://newerapublicschool.pythonanywhere.com/schoolemportent/`
           ).then(res=>{
           setImp(res.data)
           
@@ -59,12 +59,12 @@ function Notice() {
                             <Datecomponent head={head}></Datecomponent>
                        
                        </ImportantNotoice>
-//                        <ImportantNotoice>
-//                             <h1>&nbsp;&nbsp;&nbsp;School Bytes &nbsp;&nbsp;&nbsp;</h1>
-//                           <Importantcomponent head={imp}/>
+                     <ImportantNotoice>
+                             <h1>&nbsp;&nbsp;&nbsp;School Bytes &nbsp;&nbsp;&nbsp;</h1>
+                           <Importantcomponent head={imp}/>
                             
 
-//                        </ImportantNotoice>
+                        </ImportantNotoice>
                    </Noticeboard>
             </Sub>
             
