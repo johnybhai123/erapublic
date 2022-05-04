@@ -35,7 +35,7 @@ function Contact() {
       try {
         setLoad(true);
         const Response = await axios
-          .post(`https://erapublicschool.herokuapp.com/contact/`, {
+          .post(`https://newerapublicschool.pythonanywhere.com/contact/`, {
             first_name: firstname,
             last_name: lastname,
             city: city,
