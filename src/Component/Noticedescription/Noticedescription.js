@@ -25,7 +25,7 @@ const [datestr,setDatestr] = useState()
   }}
   useEffect(() => {
     fetchPosts();
-  }, [4]);
+  }, [fetchPosts]);
 
  
     return <Main>
