@@ -442,7 +442,7 @@ function Navbar({ Changedisplay }) {
                       aria-current="page"
 
                     >
-                      Mandatory
+                      Mandatory Disclosure 
                     </a>
                   </Link>
                 </li>
