@@ -1,15 +1,15 @@
-import React,{ useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import {  A, Li, Main, Sub, Ul } from "./Navbar.elements";
+import { A, Li, Main, Sub, Ul } from "./Navbar.elements";
 
 import { IconContext } from "react-icons/lib";
-function Navbar({Changedisplay}) {
-  const [dis,setDis] = useState(false)
-  if(dis){
-    Changedisplay=true;
-  }else{
-    Changedisplay=false;
+function Navbar({ Changedisplay }) {
+  const [dis, setDis] = useState(false)
+  if (dis) {
+    Changedisplay = true;
+  } else {
+    Changedisplay = false;
 
   }
   return (
@@ -18,7 +18,7 @@ function Navbar({Changedisplay}) {
         <Main>
           <div></div> <div></div>
           <p
-           id='cbse'
+            id='cbse'
           >
             CBSE AFFILIATION-#1030413{" "}
           </p>{" "}
@@ -31,7 +31,7 @@ function Navbar({Changedisplay}) {
               justifyContent: "end",
             }}
           >
-        
+
             <a href="https://www.youtube.com/channel/UC7nmZXP5RB2VUKlQ8G0AV6A">
               <svg
                 style={{ height: "20px", width: "20px" }}
@@ -75,30 +75,30 @@ function Navbar({Changedisplay}) {
           <Sub>
             <nav
               class="navbar navbar-light bg-white"
-              
-              style={{ justifyContent: "start", alignContent: "end"}}
-            >
-           <Link to="/">
-           <a class="navbar-brand text-muted" id='schoologo' >
-                <img
-                  src='https://scontent.fpnq15-1.fna.fbcdn.net/v/t1.6435-9/p526x296/244529703_598912631462814_2264571259486814212_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=7jkxtFP5pg0AX_ew-JG&_nc_ht=scontent.fpnq15-1.fna&oh=c87bf07a9b43a02e69f7ae41108e4744&oe=61860E6B'
-                id='schoolname'
-                  class="d-inline-block p-4"
-                  alt=""
-                  
-                />
-                The New Era Public School
-              </a></Link>
-            </nav>
-    <div>
-            
 
-    </div>
+              style={{ justifyContent: "start", alignContent: "end" }}
+            >
+              <Link to="/">
+                <a class="navbar-brand text-muted" id='schoologo' >
+                  <img
+                    src='https://scontent.fpnq15-1.fna.fbcdn.net/v/t1.6435-9/p526x296/244529703_598912631462814_2264571259486814212_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=7jkxtFP5pg0AX_ew-JG&_nc_ht=scontent.fpnq15-1.fna&oh=c87bf07a9b43a02e69f7ae41108e4744&oe=61860E6B'
+                    id='schoolname'
+                    class="d-inline-block p-4"
+                    alt=""
+
+                  />
+                  The New Era Public School
+                </a></Link>
+            </nav>
+            <div>
+
+
+            </div>
           </Sub>
         </Main>
         <nav
           class="navbar navbar-expand-lg navbar-light  py-3  back"
-          
+
         >
           <div class="container-fluid">
             <button
@@ -109,7 +109,7 @@ function Navbar({Changedisplay}) {
               aria-controls="navbarNav"
               aria-expanded="false"
               aria-label="Toggle navigation"
-              style={{background:'white'}}
+              style={{ background: 'white' }}
             >
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -117,23 +117,23 @@ function Navbar({Changedisplay}) {
               class="collapse navbar-collapse justify-content-center"
               id="navbarNav"
             >
-              <ul class="navbar-nav" style={{fontWeight:'600'}}>
+              <ul class="navbar-nav" style={{ fontWeight: '600' }}>
                 <li class="nav-item">
-           <Link style={{textDecoration:'none'}} to="/">
-           <a
-                    class="nav-link active text-white"
-                    aria-current="page"
-                   
-                  >
-                    Home
-                  </a>
-           </Link>
+                  <Link style={{ textDecoration: 'none' }} to="/">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
+
+                    >
+                      Home
+                    </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item dropdown">
-            <a
+                  <a
                     className="nav-link dropdown-toggle text-white"
-                    
+
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -145,70 +145,70 @@ function Navbar({Changedisplay}) {
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                   >
-                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/foundation"  >
-                    <a className="dropdown-item">
-                        Strong Foundation
-                      </a></Link>
-                    </li>
-                    <hr className="dropdown-divider" />
-
-                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/vision"  >
-                    <a className="dropdown-item">
-                        Vision
-                      </a></Link>
-                    </li>
-                    <hr className="dropdown-divider" />
-
-                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/mission"  >
-                    <a className="dropdown-item">
-                        Mission
-                      </a></Link>
-                    </li>
-                    <hr className="dropdown-divider" />
-
-                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/Tm"  >
-                    <a className="dropdown-item">
-                        Teaching Methodology
-                      </a></Link>
+                    <li>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/foundation"  >
+                        <a className="dropdown-item">
+                          Strong Foundation
+                        </a></Link>
                     </li>
                     <hr className="dropdown-divider" />
 
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/ourteam"  >
-                    <a className="dropdown-item">
-                        Our Team
-                      </a></Link>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/vision"  >
+                        <a className="dropdown-item">
+                          Vision
+                        </a></Link>
                     </li>
                     <hr className="dropdown-divider" />
-                   
 
-<li>
-<Link style={{textDecoration:'none',color: "black"}} to="/schoolman"  >
-<a className="dropdown-item">
-    School management Committee
-  </a></Link>
-</li>
-<hr className="dropdown-divider" />
-                    
-                    
-
-                     <li>
-                     <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/file/d/1ZV8mzuh6VsNfFOphhkm6MWHPIJFdAZPt/view?usp=sharing"  >
-                    <a className="dropdown-item">
-                        Annual Report
-                      </a></a>
+                    <li>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/mission"  >
+                        <a className="dropdown-item">
+                          Mission
+                        </a></Link>
                     </li>
-                   
+                    <hr className="dropdown-divider" />
+
+                    <li>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/Tm"  >
+                        <a className="dropdown-item">
+                          Teaching Methodology
+                        </a></Link>
+                    </li>
+                    <hr className="dropdown-divider" />
+
+                    <li>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/ourteam"  >
+                        <a className="dropdown-item">
+                          Our Team
+                        </a></Link>
+                    </li>
+                    <hr className="dropdown-divider" />
+
+
+                    <li>
+                      <a style={{ textDecoration: 'none', color: "black" }} href="https://drive.google.com/file/d/1F7eP0UWRH6vTEQx3XGXTLKhPFa_l1qwb/view?usp=share_link"  >
+                        <a className="dropdown-item">
+                          School management Committee
+                        </a></a>
+                    </li>
+                    <hr className="dropdown-divider" />
+
+
+
+                    <li>
+                      <a style={{ textDecoration: 'none', color: "black" }} href="https://drive.google.com/file/d/1ZV8mzuh6VsNfFOphhkm6MWHPIJFdAZPt/view?usp=sharing"  >
+                        <a className="dropdown-item">
+                          Annual Report
+                        </a></a>
+                    </li>
+
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
-            <a
+                  <a
                     className="nav-link dropdown-toggle text-white"
-                    
+
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -220,51 +220,51 @@ function Navbar({Changedisplay}) {
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                   >
-                    
+
                     <li>
-                    <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/file/d/1RIjmP-7zazBGDLJvY6N5sL3LhPxzj3hO/view?usp=sharing"  >
-                    <a className="dropdown-item">
-                        Book List
-                      </a></a>
+                      <a style={{ textDecoration: 'none', color: "black" }} href="https://drive.google.com/file/d/1RIjmP-7zazBGDLJvY6N5sL3LhPxzj3hO/view?usp=sharing"  >
+                        <a className="dropdown-item">
+                          Book List
+                        </a></a>
                     </li>
                     <hr className="dropdown-divider" />
 
                     <li>
-                      
+
                     </li>
                     <li>
-                    <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/file/d/1P3lIFvAXhr5KNqwFHqUeDtLzdhKJDgPk/view?usp=sharing"  >
-                    <a className="dropdown-item">
-                        Academic Calender
-                      </a></a>
+                      <a style={{ textDecoration: 'none', color: "black" }} href="https://drive.google.com/file/d/1WRkgFyA8TpmRvZYL5EgoF7KARMJLxDv4/view?usp=share_link"  >
+                        <a className="dropdown-item">
+                          Academic Calender
+                        </a></a>
                     </li>
                     <li>
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/middle"  >
-                    <a className="dropdown-item">
-                        Celebrations
-                      </a></Link>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/middle"  >
+                        <a className="dropdown-item">
+                          Celebrations
+                        </a></Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                    <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/file/d/1bQOAIhordjyEj90yxKWJNaAuytZp23q4/view?usp=sharing"  >
-                    <a className="dropdown-item">
-                       TC
-                      </a></a>
+                      <a style={{ textDecoration: 'none', color: "black" }} href="https://drive.google.com/file/d/1bQOAIhordjyEj90yxKWJNaAuytZp23q4/view?usp=sharing"  >
+                        <a className="dropdown-item">
+                          TC
+                        </a></a>
                     </li>
-                   </ul>
-</li>
+                  </ul>
+                </li>
 
 
 
-<li className="nav-item dropdown">
-            <a
+                <li className="nav-item dropdown">
+                  <a
                     className="nav-link dropdown-toggle text-white"
-                    
+
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -277,29 +277,29 @@ function Navbar({Changedisplay}) {
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/inquiry"  >
-                    <a className="dropdown-item">
-                        Admission Inquiry
-                      </a></Link>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/inquiry"  >
+                        <a className="dropdown-item">
+                          Admission Inquiry
+                        </a></Link>
                     </li>
                     <hr className="dropdown-divider" />
 
                     <li>
-                    <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/file/d/1XGW4-T1sTeUH7X8SsDvUtM43skc8GUXB/view?usp=sharing"  >
-                    <a className="dropdown-item">
-                        Admission Form
-                      </a></a>
+                      <a style={{ textDecoration: 'none', color: "black" }} href="https://drive.google.com/file/d/1XGW4-T1sTeUH7X8SsDvUtM43skc8GUXB/view?usp=sharing"  >
+                        <a className="dropdown-item">
+                          Admission Form
+                        </a></a>
                     </li>
                     <hr className="dropdown-divider" />
 
                     <li>
-                    <a style={{textDecoration:'none',color: "black"}} href="https://drive.google.com/file/d/1qZJl3Q_xxlM0Va6WdZgvkP5-5Vnsmw-F/view?usp=sharing"  >
-                    <a className="dropdown-item">
-                        Fee Structure
-                      </a></a>
+                      <a style={{ textDecoration: 'none', color: "black" }} href="https://drive.google.com/file/d/1DjjMKyd4ymCgvTwZI7unrQYbAHvQQZS0/view?usp=share_link"  >
+                        <a className="dropdown-item">
+                          Fee Structure
+                        </a></a>
                     </li>
-                
-                
+
+
                   </ul>
                 </li>
 
@@ -309,9 +309,9 @@ function Navbar({Changedisplay}) {
 
 
                 <li className="nav-item dropdown">
-                 <a
+                  <a
                     className="nav-link dropdown-toggle text-white"
-                    
+
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -324,78 +324,78 @@ function Navbar({Changedisplay}) {
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/classroom"  >
-                    <a className="dropdown-item">
-                       Classroom
-                      </a></Link>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/classroom"  >
+                        <a className="dropdown-item">
+                          Classroom
+                        </a></Link>
                     </li>
                     <hr className="dropdown-divider" />
 
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/lab"  >
-                    <a className="dropdown-item">
-                        Laboratory
-                      </a></Link>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/lab"  >
+                        <a className="dropdown-item">
+                          Laboratory
+                        </a></Link>
                     </li>
-                   
-                
+
+
                     <hr className="dropdown-divider" />
 
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/library"  >
-                    <a className="dropdown-item">
-                        Library
-                      </a></Link>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/library"  >
+                        <a className="dropdown-item">
+                          Library
+                        </a></Link>
                     </li>
-                      <hr className="dropdown-divider" />
-
-                      <li>
-                      <Link style={{textDecoration:'none',color: "black"}} to="/wifi"  >
-                    <a className="dropdown-item">
-                        Wifi Enabled Computer Lab
-                      </a></Link>
-                      </li>
-                 <hr className="dropdown-divider" />
+                    <hr className="dropdown-divider" />
 
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/modern"  >
-                    <a className="dropdown-item">
-                       Playground
-                      </a></Link>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/wifi"  >
+                        <a className="dropdown-item">
+                          Wifi Enabled Computer Lab
+                        </a></Link>
                     </li>
-                 <hr className="dropdown-divider" />
+                    <hr className="dropdown-divider" />
 
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/kinder"  >
-                    <a className="dropdown-item">
-                       Kindergarten
-                      </a></Link>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/modern"  >
+                        <a className="dropdown-item">
+                          Playground
+                        </a></Link>
                     </li>
-                 <hr className="dropdown-divider" />
+                    <hr className="dropdown-divider" />
 
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/activity"  >
-                    <a className="dropdown-item">
-                       Activity & Music Room
-                      </a></Link>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/kinder"  >
+                        <a className="dropdown-item">
+                          Kindergarten
+                        </a></Link>
                     </li>
-                 <hr className="dropdown-divider" />
+                    <hr className="dropdown-divider" />
 
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/transportation"  >
-                    <a className="dropdown-item">
-                       Transportation
-                      </a></Link>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/activity"  >
+                        <a className="dropdown-item">
+                          Activity & Music Room
+                        </a></Link>
                     </li>
-                
+                    <hr className="dropdown-divider" />
+
+                    <li>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/transportation"  >
+                        <a className="dropdown-item">
+                          Transportation
+                        </a></Link>
+                    </li>
+
                   </ul>
                 </li>
 
 
                 <li className="nav-item dropdown">
-                <a
+                  <a
                     className="nav-link dropdown-toggle text-white"
-                    
+
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -407,47 +407,51 @@ function Navbar({Changedisplay}) {
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                   >
-               
+
 
                     <li>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/annual"  >
-                    <a className="dropdown-item">
-                        Annual Function
-                      </a></Link>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/annual"  >
+                        <a className="dropdown-item">
+                          Annual Function
+                        </a></Link>
                     </li>
-                
 
-                
-                
+
+
+
                   </ul>
                 </li>
 
 
                 <li class="nav-item">
-                <Link style={{textDecoration:'none'}} to="/staff">
-                  <a
-                    class="nav-link active text-white"
-                    aria-current="page"
-                   
-                  >
-                    Staff
-                  </a>
-                  
+                  <Link style={{ textDecoration: 'none' }} to="/staff">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
 
+                    >
+                      Staff
+                    </a>
+                  </Link>
+                </li>
 
+                <li class="nav-item">
+                  <Link style={{ textDecoration: 'none' }} to="/mandatory">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
 
-                  
-
-           </Link>
-
-
+                    >
+                      Mandatory
+                    </a>
+                  </Link>
                 </li>
 
 
                 <li className="nav-item dropdown">
-                <a
+                  <a
                     className="nav-link dropdown-toggle text-white"
-                    
+
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -458,51 +462,51 @@ function Navbar({Changedisplay}) {
                   <ul
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
-                  
-                  >
-               
 
-                    <li style={{overflowdWrap:'break-word'}}>
-                    <Link style={{textDecoration:'none',color: "black"}} to="/"  >
-                    <a className="dropdown-item"  >
-                        Rajesh Awasthi <br />
-                        (Principal of Choithram)
-                      </a>
-                      <hr className="dropdown-divider" />
-                    <a className="dropdown-item">
-                    Awdhesh Tiwari <br />
-                     (Director of Ideal International School)
-                      </a>
-                      <hr className="dropdown-divider" />
-                    <a className="dropdown-item">
-                    Simantini Sardesai <br />
-                    (CEO Sandipani Foundation)
-                      </a>
-                      <hr className="dropdown-divider" />
-                    <a className="dropdown-item">
-                    Satyanarayanji Vohra <br />
-                    (Advisor of Sarafa Vidya niketan)
-                      </a>
-                      
-                      
-                      
+                  >
+
+
+                    <li style={{ overflowdWrap: 'break-word' }}>
+                      <Link style={{ textDecoration: 'none', color: "black" }} to="/"  >
+                        <a className="dropdown-item"  >
+                          Rajesh Awasthi <br />
+                          (Principal of Choithram)
+                        </a>
+                        <hr className="dropdown-divider" />
+                        <a className="dropdown-item">
+                          Awdhesh Tiwari <br />
+                          (Director of Ideal International School)
+                        </a>
+                        <hr className="dropdown-divider" />
+                        <a className="dropdown-item">
+                          Simantini Sardesai <br />
+                          (CEO Sandipani Foundation)
+                        </a>
+                        <hr className="dropdown-divider" />
+                        <a className="dropdown-item">
+                          Satyanarayanji Vohra <br />
+                          (Advisor of Sarafa Vidya niketan)
+                        </a>
+
+
+
                       </Link>
                     </li>
-                
 
-                
-                
+
+
+
                   </ul>
                 </li>
-               <Link to='/contact'>
-               <li class="nav-item">
-                <button type="button" class="btn btn-dark">Contact us</button>
-                </li>
-               </Link>
+                <Link to='/contact'>
+                  <li class="nav-item">
+                    <button type="button" class="btn btn-dark">Contact us</button>
+                  </li>
+                </Link>
 
 
 
-                
+
               </ul>
             </div>
           </div>

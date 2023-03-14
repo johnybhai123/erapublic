@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+/* x, xii class result css */
+
+.board-info {
+    text-transform: uppercase;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.board-info .main_head {
+    font-weight: 800;
+}
+
+.board-info .sub_head {
+    font-weight: 600;
+}
+
+/* document (A) css */
+h1 {
+    margin-top: 2rem;
+}
+
+h1 span {
+    background-color: #0F044C;
+    color: white;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+}
+
+.sub_mandatory {
+    text-align: right;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    text-transform: uppercase;
+}
+
+.menu {
+    margin: 0;
+}
+
+.middle_para {
+    font-weight: bold;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.general-info {
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 3rem;
+    font-weight: bold;
+}
+
+table {
+    margin-top: 1.5rem;
+}
+
+/* document (B) css */
+.generalB {
+    margin-top: 2rem;
+}
+
+.table-form {
+    text-align: left !important;
+}
+
+
+.cSecond table {
+    text-align: center;
+}
+
+table {
+    text-align: center !important;
+}
+
+.pg-center {
+    text-align: center;
+    background-color: white !important;
+}
+
+.white_box {
+    background-color: white !important;
+}
+
+.padding_main {
+    margin: 5rem;
+}
+
+/* hr {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.general hr {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.generalB hr {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.generalC hr {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.generalD hr {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.generalE hr {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.generalSecond hr {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.generalFirst hr {
+    margin-left: 3%;
+    margin-right: 3%;
+} */
+.general h5, .generalC h5, .generalD h5, .generalE h5, .generalFirst h5, .generalSecond h5 {
+    border-bottom: 1px solid #000;
+    margin: 5px 0;
+    text-align: left;
+    color: #011b45;
+    font-weight: bold;
+    padding-left: 0px;
+    width: 93%;
+    margin-left: 2.5rem;
+}
+.generalB h5{
+    border-bottom: 1px solid #000;
+    margin: 5px 0;
+    text-align: left;
+    color: #011b45;
+    font-weight: bold;
+    padding-left: 0px;
+    width: 100%;
+    /* margin-left: 2.5rem; */
+}
+
+
+@media (max-width:912px) {
+    .sub_mandatory {
+        font-size: 1.2rem;
+        padding: 1.5rem 0;
+    }
+
+    .era_main .menu_info {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .general-info {
+        font-size: 1.4rem !important;
+        margin-top: 1rem;
+        padding-left: 1rem;
+    }
+    .general h5, .generalC h5, .generalD h5, .generalE h5, .generalFirst h5, .generalSecond h5 {
+        border-bottom: 1px solid #000;
+        margin: 5px 0;
+        text-align: left;
+        color: #011b45;
+        font-weight: bold;
+        padding-left: 0px;
+        width: 92%;
+        margin-left: 1.9rem;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .general h5, .generalC h5, .generalD h5, .generalE h5, .generalFirst h5, .generalSecond h5 {
+        border-bottom: 1px solid #000;
+        margin: 5px 0;
+        text-align: left;
+        color: #011b45;
+        font-weight: bold;
+        padding-left: 0px;
+        width: 95%;
+        margin-left: 1.1rem;
+    }
+}
+
+@media (max-width:540px) {
+    .sub_mandatory {
+        /* text-align: center; */
+        padding: 2rem 0 !important;
+        text-transform: capitalize;
+    }
+
+    .col {
+        padding: 0;
+    }
+
+    .padding_main {
+        margin: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        /* box-sizing: border-box; */
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .general-info {
+        /* text-align: center; */
+        margin: 0rem 0;
+    }
+    .general h5, .generalC h5, .generalD h5, .generalE h5{
+        border-bottom: 1px solid #000;
+        margin: 5px 0;
+        text-align: left;
+        color: #011b45;
+        font-weight: bold;
+        padding-left: 0px;
+        width: 99%;
+        margin-left: 0.2rem;
+    }
+    /* .generalFirst h5, .generalSecond h5 {
+        border-bottom: 1px solid #000;
+        margin: 5px 0;
+        text-align: left;
+        color: #011b45;
+        font-weight: bold;
+        padding-left: 0px;
+        width: 100%;
+        margin-left: 0rem;
+    } */
+}
+
+@media (max-width:429px) {
+    hr {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    h1 .new_era {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .sub_mandatory {
+        font-size: 0.9rem;
+        padding: 1.5rem 0;
+        /* text-align: center; */
+    }
+
+    .era_main .menu_info {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .padding_main {
+        margin: 2rem 0 3rem 0;
+    }
+
+    .general-info {
+        /* text-align: center; */
+        font-size: 0.8rem !important;
+        margin-top: 1rem;
+    }
+
+    .col {
+        padding: 0;
+    }
+
+    table {
+        margin: 0 auto;
+        font-size: 0.5rem;
+    }
+
+    .h2,
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .h5,
+    h5 {
+        font-size: 0.7rem;
+    }
+    .general h5, .generalC h5, .generalD h5, .generalE h5, .generalFirst h5, .generalSecond h5 {
+        border-bottom: 1px solid #000;
+        margin: 5px 0;
+        text-align: left;
+        color: #011b45;
+        font-weight: bold;
+        padding-left: 0px;
+        width: 100%;
+        margin-left: 0rem;
+    }
+}
+
+/* .general h5{
+    position: relative;
+   
+}
+.general h5::after{
+    position: absolute;
+    background: #000;
+    content: '';
+    left: 3%;
+    top: 95%;
+    width: 94%;
+    height: 1.5px;
+    display: block;
+    margin: 0.5rem auto;
+} */
+
+@media (max-width:375px) {
+    .general h5, .generalC h5, .generalD h5, .generalE h5, .generalFirst h5, .generalSecond h5 {
+        border-bottom: 1px solid #000;
+        margin: 5px 0;
+        text-align: left;
+        color: #011b45;
+        font-weight: bold;
+        padding-left: 0px;
+        width: 100%;
+        margin-left: 0rem;
+    }
+}

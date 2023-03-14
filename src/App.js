@@ -23,6 +23,9 @@ import Activityroom from "./Component/Activityroom/Activityroom";
 import Transport from "./Component/Transport/Transport";
 import ScrollToTop from "./Component/ScrollToTop";
 import Schoolmanagementcommittee from "./Component/Schoolmanagementcommittee/schoolmanagement";
+
+import BoardResult from "./Component/SchoolInfo/BoardResult";
+
 function App() {
   return (
     <div className="App">
@@ -69,6 +72,8 @@ function App() {
           <Route path="/activity" exact component={Activityroom}/>
           <Route path="/transportation" exact component={Transport}/>
           <Route path="/schoolman" exact component={Schoolmanagementcommittee}/>
+          
+          <Route path="/mandatory" exact component={BoardResult}/>
 
           
 
