@@ -435,17 +435,7 @@ function Navbar({ Changedisplay }) {
                   </Link>
                 </li>
 
-                <li class="nav-item">
-                  <Link style={{ textDecoration: 'none' }} to="/mandatory">
-                    <a
-                      class="nav-link active text-white"
-                      aria-current="page"
-
-                    >
-                      Mandatory Disclosure 
-                    </a>
-                  </Link>
-                </li>
+                
 
 
                 <li className="nav-item dropdown">
@@ -504,7 +494,17 @@ function Navbar({ Changedisplay }) {
                   </li>
                 </Link>
 
+<li class="nav-item">
+                  <Link style={{ textDecoration: 'none' }} to="/mandatory">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
 
+                    >
+                      Mandatory Disclosure 
+                    </a>
+                  </Link>
+                </li>
 
 
               </ul>
