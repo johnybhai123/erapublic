@@ -68,7 +68,7 @@ const GeneralD = () => {
                                     <tr>
                                         <td>4.</td>
                                         <td>SPECIAL EDUCATOR DETAILS</td>
-                                        <td></td>
+                                        <td> Mrs. Manju Sali</td>
                                     </tr>
                                     <tr>
                                         <td>5.</td>

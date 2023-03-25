@@ -34,13 +34,13 @@ const GeneralE = () => {
                                     <tr>
                                         <td>2.</td>
                                         <td>	NUMBER AND SIZE OF CLASS ROOMS (IN SQUARE MTR.)</td>
-                                        <td className='text-center'></td>
+                                        <td className='text-center'> 6.10 x 6.50 sq m</td>
                                     </tr>
 
                                     <tr>
                                         <td>3.</td>
                                         <td>	NUMBER OF LARGE LABS INCLUDING COMPUTER LABS (IN SQUARE MTR.)</td>
-                                        <td className='text-center'></td>
+                                        <td className='text-center'> 6.25 x 6.25 sq m</td>
                                     </tr>
                                     <tr>
                                         <td>4.</td>

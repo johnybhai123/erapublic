@@ -1,7 +1,10 @@
 import React from "react";
 
+
 import { Carouselcaption, Img } from "./Slider.elements";
 function Slider() {
+
+
   return (
     <div
       id="carouselExampleIndicators"

@@ -25,60 +25,66 @@ import ScrollToTop from "./Component/ScrollToTop";
 import Schoolmanagementcommittee from "./Component/Schoolmanagementcommittee/schoolmanagement";
 
 import BoardResult from "./Component/SchoolInfo/BoardResult";
+import PopModal from "./PopModal";
+
+
 
 function App() {
+
+
   return (
     <div className="App">
+      <PopModal />
       <Router>
-        <ScrollToTop/>
-          <Navbar></Navbar>
+        <ScrollToTop />
+        <Navbar></Navbar>
         <Switch>
 
-          <Route path="/" exact component={Home}/>
-           
-          <Route path="/msgprincipal" exact component={Principalpen}/>
-          <Route path="/coc" exact component={Codeofconduct}/>
-          <Route path="/uniform" exact component={Uniform}/>
-          <Route path="/academicurriculum" exact component={AcademicCurriculum}/>
-          <Route path="/earlychildhood" exact component={Earlychildhood}/>
-          <Route path="/middle" exact component={Middleschool}/>
-          <Route path="/elementary" exact component={Elementaryschool}/>
-          <Route path="/highschool" exact component={Highshool}/>
-          <Route path="/cocurriculum" exact component={Corriculums}/>
-          <Route path="/moral" exact component={Moral}/>
-          <Route path="/spiritual" exact component={Spiritual}/>
-          <Route path="/activities" exact component={Activity}/>
-          <Route path="/classroom" exact component={Classrooms}/>
-          <Route path="/lab" exact component={Labs}/>
-          <Route path="/modern" exact component={Classicalart}/>
-          <Route path="/library" exact component={Library}/>
-          <Route path="/wifi" exact component={Computerlab}/>
-          <Route path="/annual" exact component={Annual}/>
-          <Route path="/staff" exact component={Staff}/>
-          <Route path="/contact" exact component={Contact}/>
-          <Route path="/inquiry" exact component={Admissioninquiry}/>
-          <Route path="/schoolbyte/:id" exact component={Noticedescription}/>
-          <Route path="/schoolemportent/:id" exact component={Importantdescription}/>
-          <Route path="/foundation" exact component={props=><Strongfoundation {...props}/>}/>
-          <Route path="/vision" exact component={Vission}/>
-          <Route path="/mission" exact component={Mission}/>
-          <Route path="/Tm" exact component={Teachingmethodlogy}/>
-          <Route path="/ourteam" exact component={Ourteam}/>
-          <Route path="/Director" exact component={Saritabudana}/>
-          <Route path="/Md" exact component={Md}/>
-          <Route path="/president" exact component={President}/>
-          <Route path="/principal" exact component={Principal}/>
-          <Route path="/kinder" exact component={Kindergarten}/>
-          <Route path="/activity" exact component={Activityroom}/>
-          <Route path="/transportation" exact component={Transport}/>
-          <Route path="/schoolman" exact component={Schoolmanagementcommittee}/>
-          
-          <Route path="/mandatory" exact component={BoardResult}/>
+          <Route path="/" exact component={Home} />
 
-          
+          <Route path="/msgprincipal" exact component={Principalpen} />
+          <Route path="/coc" exact component={Codeofconduct} />
+          <Route path="/uniform" exact component={Uniform} />
+          <Route path="/academicurriculum" exact component={AcademicCurriculum} />
+          <Route path="/earlychildhood" exact component={Earlychildhood} />
+          <Route path="/middle" exact component={Middleschool} />
+          <Route path="/elementary" exact component={Elementaryschool} />
+          <Route path="/highschool" exact component={Highshool} />
+          <Route path="/cocurriculum" exact component={Corriculums} />
+          <Route path="/moral" exact component={Moral} />
+          <Route path="/spiritual" exact component={Spiritual} />
+          <Route path="/activities" exact component={Activity} />
+          <Route path="/classroom" exact component={Classrooms} />
+          <Route path="/lab" exact component={Labs} />
+          <Route path="/modern" exact component={Classicalart} />
+          <Route path="/library" exact component={Library} />
+          <Route path="/wifi" exact component={Computerlab} />
+          <Route path="/annual" exact component={Annual} />
+          <Route path="/staff" exact component={Staff} />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/inquiry" exact component={Admissioninquiry} />
+          <Route path="/schoolbyte/:id" exact component={Noticedescription} />
+          <Route path="/schoolemportent/:id" exact component={Importantdescription} />
+          <Route path="/foundation" exact component={props => <Strongfoundation {...props} />} />
+          <Route path="/vision" exact component={Vission} />
+          <Route path="/mission" exact component={Mission} />
+          <Route path="/Tm" exact component={Teachingmethodlogy} />
+          <Route path="/ourteam" exact component={Ourteam} />
+          <Route path="/Director" exact component={Saritabudana} />
+          <Route path="/Md" exact component={Md} />
+          <Route path="/president" exact component={President} />
+          <Route path="/principal" exact component={Principal} />
+          <Route path="/kinder" exact component={Kindergarten} />
+          <Route path="/activity" exact component={Activityroom} />
+          <Route path="/transportation" exact component={Transport} />
+          <Route path="/schoolman" exact component={Schoolmanagementcommittee} />
+
+          <Route path="/mandatory" exact component={BoardResult} />
+
+
 
         </Switch>
-          <Footer></Footer>
+        <Footer></Footer>
       </Router>
     </div>
   );

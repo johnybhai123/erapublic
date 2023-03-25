@@ -5,7 +5,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+
+
 const General = () => {
+
+  
     return (
         <>
             <h1><span className='new_era'>The New Era Public School</span></h1>

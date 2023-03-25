@@ -81,7 +81,7 @@ function Navbar({ Changedisplay }) {
               <Link to="/">
                 <a class="navbar-brand text-muted" id='schoologo' >
                   <img
-                    src='https://scontent.fpnq15-1.fna.fbcdn.net/v/t1.6435-9/p526x296/244529703_598912631462814_2264571259486814212_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=7jkxtFP5pg0AX_ew-JG&_nc_ht=scontent.fpnq15-1.fna&oh=c87bf07a9b43a02e69f7ae41108e4744&oe=61860E6B'
+                    src='https://iili.io/HNYDSjf.png'
                     id='schoolname'
                     class="d-inline-block p-4"
                     alt=""
@@ -435,7 +435,7 @@ function Navbar({ Changedisplay }) {
                   </Link>
                 </li>
 
-                
+
 
 
                 <li className="nav-item dropdown">
@@ -494,14 +494,14 @@ function Navbar({ Changedisplay }) {
                   </li>
                 </Link>
 
-<li class="nav-item">
+                <li class="nav-item">
                   <Link style={{ textDecoration: 'none' }} to="/mandatory">
                     <a
                       class="nav-link active text-white"
                       aria-current="page"
 
                     >
-                      Mandatory Disclosure 
+                      Mandatory Disclosure
                     </a>
                   </Link>
                 </li>
