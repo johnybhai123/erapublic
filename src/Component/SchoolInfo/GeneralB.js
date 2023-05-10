@@ -59,7 +59,7 @@ const GeneralB = () => {
                     <tr>
                         <td>8</td>
                         <td>	COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES</td>
-                        <td className='text-center'><a href="" target='_blank'>Link</a></td>
+                        <td className='text-center'><a href="https://drive.google.com/file/d/1fiPv8ylEoX2WuS8PNi1tLuntuXGlNQZq/view?usp=share_link" target='_blank'>Link</a></td>
                     </tr>
                 </tbody>
             </Table>
