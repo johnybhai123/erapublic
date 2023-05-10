@@ -44,7 +44,7 @@ const GeneralB = () => {
                     <tr>
                         <td>5</td>
                         <td>COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER NATIONAL BUILDING CODE</td>
-                        <td className='text-center'><a href="" target='_blank'>Link</a></td>
+                        <td className='text-center'><a href="https://drive.google.com/file/d/1RKF6NDl_6bZB4ZpW-VstxwMIdn4-M-4S/view?usp=share_link" target='_blank'>Link</a></td>
                     </tr>
                     <tr>
                         <td>6</td>
