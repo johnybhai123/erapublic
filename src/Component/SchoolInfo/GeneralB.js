@@ -44,7 +44,7 @@ const GeneralB = () => {
                     <tr>
                         <td>5</td>
                         <td>COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER NATIONAL BUILDING CODE</td>
-                        <td className='text-center'><a href="https://drive.google.com/file/d/1RKF6NDl_6bZB4ZpW-VstxwMIdn4-M-4S/view?usp=share_link" target='_blank'>Link</a></td>
+                        <td className='text-center'><a href="pdf_images/BSC.pdf" target='_blank'>Link</a></td>
                     </tr>
                     <tr>
                         <td>6</td>
@@ -59,7 +59,7 @@ const GeneralB = () => {
                     <tr>
                         <td>8</td>
                         <td>	COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES</td>
-                        <td className='text-center'><a href="https://drive.google.com/file/d/1fiPv8ylEoX2WuS8PNi1tLuntuXGlNQZq/view?usp=share_link" target='_blank'>Link</a></td>
+                        <td className='text-center'><a href="pdf_images/WSC.pdf" target='_blank'>Link</a></td>
                     </tr>
                 </tbody>
             </Table>
