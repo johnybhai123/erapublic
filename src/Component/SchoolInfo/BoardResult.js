@@ -63,7 +63,6 @@ const BoardResult = () => {
                     <td>100.00</td>
                     <td></td>
                   </tr>
-                  
                     <tr>
                     <td>3</td>
                     <td>2022-23</td>
@@ -119,7 +118,6 @@ const BoardResult = () => {
                     <td>85</td>
                     <td></td>
                   </tr>
-                  
                    <tr>
                     <td>3</td>
                     <td>2022-23</td>
