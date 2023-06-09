@@ -50,7 +50,7 @@ const GeneralC = () => {
                                     <tr>
                                         <td>5</td>
                                         <td>	LAST THREE-YEAR RESULT OF THE BOARD EXAMINATION AS PER APPLICABILITY</td>
-                                        <td className='text-center'><a href="pdf_images/13_LTY_Result.pdf" target='_blank' >Link</a></td>
+                                        <td className='text-center'><a href="pdf_images/board_result.pdf" target='_blank' >Link</a></td>
                                     </tr>
 
                                 </tbody>
