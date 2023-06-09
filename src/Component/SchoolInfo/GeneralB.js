@@ -49,7 +49,7 @@ const GeneralB = () => {
                     <tr>
                         <td>6</td>
                         <td>COPY OF VALID FIRE SAFETY CERTIFICATE ISSUED BY THE COMPETENT AUTHORITY</td>
-                        <td className='text-center'><a href="pdf_images/6_Fire_Safety.pdf" target='_blank'>Link</a></td>
+                        <td className='text-center'><a href="pdf_images/6_Fire_NOC.pdf" target='_blank'>Link</a></td>
                     </tr>
                     <tr>
                         <td>7</td>
