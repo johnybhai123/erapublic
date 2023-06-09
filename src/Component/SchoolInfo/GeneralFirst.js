@@ -29,16 +29,9 @@ const GeneralFirst = () => {
                                     </tr>
                                 </thead>
                                 <tbody>
+                                  
                                     <tr>
                                         <td>1</td>
-                                        <td>2019-20</td>
-                                        <td>13</td>
-                                        <td>12</td>
-                                        <td>92.31</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
                                         <td>2020-21</td>
                                         <td>55</td>
                                         <td>55</td>
@@ -46,13 +39,21 @@ const GeneralFirst = () => {
                                         <td></td>
                                     </tr>
                                     <tr>
-                                        <td>3</td>
+                                        <td>2</td>
                                         <td>2021-22</td>
                                         <td>18</td>
                                         <td>48</td>
                                         <td>100.00</td>
                                         <td></td>
                                     </tr>
+  <tr>
+                    <td>3</td>
+                    <td>2022-23</td>
+                    <td>51</td>
+                    <td>49</td>
+                    <td>96</td>
+                    <td></td>
+                  </tr>
                                 </tbody>
                             </Table>
                         </Col>
