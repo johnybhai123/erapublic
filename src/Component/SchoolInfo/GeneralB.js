@@ -34,7 +34,7 @@ const GeneralB = () => {
                     <tr>
                         <td>3</td>
                         <td>	COPY OF THE NO OBJECTION CERTIFICATE (NOC) ISSUED, IF APPLICABLE, BY THE STATE GOVT./ UT</td>
-                        <td className='text-center'><a href="pdf_images/3_NOC.pdf" target='_blank'>Link</a></td>
+                        <td className='text-center'><a href="pdf_images/NOC_Letter.pdf" target='_blank'>Link</a></td>
                     </tr>
                     <tr>
                         <td>4</td>
