@@ -63,6 +63,12 @@ const GeneralE = () => {
                                         <td className='text-center'><a href="https://www.youtube.com/watch?v=2kCFCHIKnGA" target='_blank'>Link</a></td>
                                     </tr>
 
+    <tr>
+                                        <td></td>
+                                        <td>APPENDIX IX</td>
+                                        <td className='text-center'><a href="pdf_images/Mandatory Disclosure Details.pdf" target='_blank'>Link</a></td>
+                                    </tr>
+
                                 </tbody>
                             </Table>
                         </Col>
