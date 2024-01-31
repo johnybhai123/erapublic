@@ -6,7 +6,7 @@ function Strongfoundation() {
         <h1 style={{ color: "green" }}>Strong Foundation</h1>
         <hr />
         <Img
-          src="https://drive.google.com/uc?id=1KOPKJn3n2YCgtkvOE4aBM6qoeqny0O1L"
+          src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687986/Strong_foundation_siracl.jpg"
           alt=""
         />
         <p style={{ padding: "40px 0 0 0" }}>
