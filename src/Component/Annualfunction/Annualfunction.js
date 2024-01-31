@@ -20,14 +20,14 @@ function Annualfunction() {
 
             <Div style={{display:'flex',flexWrap:'wrap'}}>
 
-                        <img style={{height:'300px',width:'300px'}} src='https://drive.google.com/uc?id=15Sofr3q008hmktc4aCKmJQgYrS5ii2-x' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://drive.google.com/uc?id=1p3IZAS0uwP_kQOjtKVvmQ3hQLGNGA-jD' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://drive.google.com/uc?id=1kM3UgiPShQxvnu3S_rPUR63jfCxHNoCz' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://drive.google.com/uc?id=1rItB2YykxBJi2Nufi-yw2lrZoyrJiRK4' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://drive.google.com/uc?id=1_5o40nAPDIO-bToBYHQVwoSyy97-93PR' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://drive.google.com/uc?id=1pLXkwGWFgiRTF0oTZZ-72doZCk2cd5_c' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://drive.google.com/uc?id=1YvDbwCJzCaBZNic2I45D3qCToU5-KMza' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://drive.google.com/uc?id=1c6wxG5syE8Eu1CztpJgyFtRMBaY6HntK' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687948/DSC_8006_sto6cu.jpg' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687959/DSC_8233_uqclx1.jpg' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687956/DSC_7948_ywl6om.jpg' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687969/DSC_8321_v6mnyx.jpg' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687941/DSC_7919_jsuxdb.jpg' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687940/DSC_7827_bk7qw4.jpg' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687957/DSC_8149_gzqmhu.jpg' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687950/DSC_7869_iveovl.jpg' alt="" />
                 </Div>
 
 
