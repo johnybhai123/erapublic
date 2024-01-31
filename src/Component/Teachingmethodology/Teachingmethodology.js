@@ -7,7 +7,7 @@ function Teachingmethodlogy() {
         <h1 style={{ color: "green" }}>Teaching Methodlogy</h1>
         <hr />
         <Img
-          src="https://drive.google.com/uc?id=1pfum9C6Je5v9bre9Z2FNesIC9cv2j-wI"
+          src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687987/Teaching_methodlogy_s3jcrr.jpg"
           alt=""
         />
         <p style={{ padding: "40px 0 0 0" }}>
