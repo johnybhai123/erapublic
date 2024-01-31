@@ -30,28 +30,28 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
         <Fac>
           <Link to="/">
             <Component
-              image="https://drive.google.com/uc?id=1L91G9pSwDgElQscZVYnzeWE314Oji89w"
+              image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687934/3_jop39w.jpg"
               heading="Campus"
               description="Four Acre Campus"
             />
           </Link>
           <Link to="/classroom">
             <Component
-              image="https://drive.google.com/uc?id=1g3H-08V5Y-AbvCj9hrIoYR_t_2jo4waz"
+              image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687936/computerlab_e3u3ki.jpg"
               heading=" Class Room "
               description=" Digital And Smart Class Room  "
             />
           </Link>
           <Link to="/library">
             <Component
-              image="https://drive.google.com/uc?id=1-qFbwx0rcryi0vINmWNt3JexOAtgAljO"
+              image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687965/IMG_0963_luhjkh.jpg"
               heading="Library"
               description="Well equipped Library "
             />
           </Link>
           <Link to="/lab">
             <Component
-              image="https://drive.google.com/uc?id=1FO45KKK9vBk5QekNDgm9AKx2TN-25Abc"
+              image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687962/IMG_0959_zxwzoo.jpg"
               heading="Laboratory "
               description="Science labs"
             />
@@ -61,26 +61,26 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
           <Link to="/activity">
             {" "}
             <Component
-              image="https://drive.google.com/uc?id=1E8AKtKjn0emHhi3hQah5U9rN2dPXBT4p"
+              image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687980/IMG_1489_q1pr4h.jpg"
               heading="Activity Room"
               description="Kids Activity Room "
             />
           </Link>
           <Component
             heading=" Seminar "
-            image='https://drive.google.com/uc?id=11obVyNMqMisvCWET5ill3mD5AtqHGKpX'
+            image='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687974/DSC_8026_ulfcdd.jpg'
             description="Auditorium & Audio Visual Room   "
           />
           <Link to="/activity">
             <Component
-              image="https://drive.google.com/uc?id=19QGs_MUWMf2ndBn8EuifEj6IXBNSCZK-"
+              image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687974/5_mc6l0l.jpg"
               heading="Arts"
               description=" Art & Craft, Music and Dance "
             />
           </Link>
           <Link to="/transportation">
             <Component
-                image="https://drive.google.com/uc?id=1L91G9pSwDgElQscZVYnzeWE314Oji89w"
+                image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687971/IMG_1010_kve8o2.jpg"
               heading="Transportation Facility "
               description="Transportation Facility"
             />
@@ -97,19 +97,19 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
           </Link>
           <Link to="/modern">
             <Component
-              image="https://drive.google.com/uc?id=1SC0rzkXFApexHwh_fKQVwPrZ4POx0Vwf"
+              image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687971/IMG_1010_kve8o2.jpg"
               heading=" Sports "
               description=" Well maintained Sports Complex  "
             />
           </Link>
           <Component
             heading="Environment"
-            image='https://drive.google.com/uc?id=11rIATFazq6a6Bu3hhTsnaMTJ8x9_NFmp'
+            image='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687979/IMG_1512_xwikex.jpg'
             description="Motivating learning environment "
           />
           <Link to="/wifi">
             <Component
-              image="https://drive.google.com/uc?id=15NByCygIGjQbNoaZjdjHhCd6VzpamhCP"
+              image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687974/IMG_1486_u2nljh.jpg"
               heading="Computer Lab "
               description="Computer & Secure Wifi for kids"
             />
