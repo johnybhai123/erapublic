@@ -24,7 +24,7 @@ function Slider() {
         <div className="carousel-item active">
           <Img
             className="d-block w-100"
-            src="https://drive.google.com/uc?id=1Jrp0HTd9DDmpRDkP4gbIcPuw5NvSxfyU"
+            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687984/IMG_1537_snrnmr.jpg"
             alt="First slide"
           />
           {/* <Carouselcaption>
@@ -46,7 +46,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://drive.google.com/uc?id=11rIATFazq6a6Bu3hhTsnaMTJ8x9_NFmp"
+            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687984/IMG_1452_dre5ua.jpg"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -57,7 +57,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://drive.google.com/uc?id=1xPPbqm8E0Re73GrB9xLDDy3HXOB7tof8"
+            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687971/IMG_1045_lweq28.jpg"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -68,7 +68,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://drive.google.com/uc?id=1U-te8BAfrxeaCj4YVzw2qZVGaaR5G336"
+            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687971/IMG_1010_kve8o2.jpg"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -79,7 +79,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://drive.google.com/uc?id=1m4wAaQ64eUfucfTBU8eq3q_fuuNg7u2d"
+            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687974/IMG_1461_olfjd6.jpg"
             alt="Third slide"
           />
           {/* <Carouselcaption>
