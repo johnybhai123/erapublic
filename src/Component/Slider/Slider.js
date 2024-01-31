@@ -35,7 +35,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://drive.google.com/uc?id=1eLScClqrvDB4K7NyBjCs7WjRI3jjtMuW"
+            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687934/3_jop39w.jpg"
             alt="Second slide"
           />
           {/* <Carouselcaption>
