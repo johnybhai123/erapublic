@@ -18,7 +18,7 @@ const PopModal = () => {
 
                 <Modal open={open} onClose={onCloseModal} center>
                     <div className='text-center'>
-                        <h4 >Admission Open 2023-2024</h4>
+                        <h4 >Admission Open 2024-2025</h4>
                     </div>
                     // <img src="https://iili.io/HNYgguS.jpg" className="img-class" alt="" />  
         </Modal>
