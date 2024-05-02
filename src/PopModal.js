@@ -20,7 +20,7 @@ const PopModal = () => {
                     <div className='text-center'>
                         <h4 >Admission Open 2024-2025</h4>
                     </div>
-                    // <img src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714667641/req_zkblcu.png" className="img-class" alt="" />  
+                     <img src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714667641/req_zkblcu.png" className="img-class" alt="" />  
         </Modal>
             </div>
 
