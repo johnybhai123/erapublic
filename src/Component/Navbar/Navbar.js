@@ -222,7 +222,7 @@ function Navbar({ Changedisplay }) {
                   >
 
                     <li>
-                      <a style={{ textDecoration: 'none', color: "black" }} href="https://drive.google.com/file/d/1RIjmP-7zazBGDLJvY6N5sL3LhPxzj3hO/view?usp=sharing"  >
+                      <a style={{ textDecoration: 'none', color: "black" }} href="https://drive.google.com/file/d/1Q2mdTCE4rbSwL1oEUIzciz-MDVFH6xVA/view?usp=sharing"  >
                         <a className="dropdown-item">
                           Book List
                         </a></a>
@@ -233,7 +233,7 @@ function Navbar({ Changedisplay }) {
 
                     </li>
                     <li>
-                      <a style={{ textDecoration: 'none', color: "black" }} href="https://drive.google.com/file/d/1WRkgFyA8TpmRvZYL5EgoF7KARMJLxDv4/view?usp=share_link"  >
+                      <a style={{ textDecoration: 'none', color: "black" }} href="https://drive.google.com/file/d/1ZJBpuaQVUNX-CZ1l7IjtuvRhkA4wTXHV/view?usp=sharing"  >
                         <a className="dropdown-item">
                           Academic Calender
                         </a></a>
