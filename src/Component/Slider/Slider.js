@@ -24,7 +24,7 @@ function Slider() {
         <div className="carousel-item active">
           <Img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687984/IMG_1537_snrnmr.jpg"
+            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714664315/421793706_1099420291267135_5349985736222032284_n_hkojwx.jpg"
             alt="First slide"
           />
           {/* <Carouselcaption>
@@ -35,7 +35,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687934/3_jop39w.jpg"
+            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714664324/MAAA1406_gksgyh.jpg"
             alt="Second slide"
           />
           {/* <Carouselcaption>
@@ -46,7 +46,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687984/IMG_1452_dre5ua.jpg"
+            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714664329/MAAA1381_tv8qn0.jpg"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -57,7 +57,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687971/IMG_1045_lweq28.jpg"
+            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714664325/WhatsApp_Image_2024-04-15_at_8.58.52_PM_ibyyqd.jpg"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -68,7 +68,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687971/IMG_1010_kve8o2.jpg"
+            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714664329/MAAA1381_tv8qn0.jpg"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -79,7 +79,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687974/IMG_1461_olfjd6.jpg"
+            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714664316/422931934_1099419781267186_4561911386703600390_n_wopl5e.jpg"
             alt="Third slide"
           />
           {/* <Carouselcaption>
