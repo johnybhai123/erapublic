@@ -43,7 +43,15 @@ Pin code – 452001
         </Footerlinks>
         <Footervideo>
           <h2>School Video</h2>
-          <iframe width="250" height="250" src="www.youtube.com/embed/gSYc6BuCXsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true"></iframe>
+        <iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/gSYc6BuCXsI" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
         </Footervideo>
       </Footerz>
       <hr />
