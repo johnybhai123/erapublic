@@ -20,14 +20,14 @@ function Annualfunction() {
 
             <Div style={{display:'flex',flexWrap:'wrap'}}>
 
-                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1714665110/MAAA1332_eqt4an.jpg' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1714665107/MAAA1621_p7fci0.jpg' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1714665106/MAAA1485_ttslly.jpg' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1714665088/WhatsApp_Image_2023-12-16_at_12.50.03_PM_s7yi9p.jpg' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1714665072/MAAA1208_doufj5.jpg' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1714665077/MAAA1572_maufv1.jpg' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1714665087/MAAA0928_bysgfz.jpg' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1714665087/MAAA0928_bysgfz.jpg' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\DSC_2129 annual function.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\DSC_2615kawali.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\DSC_2695 AF.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\DSC_2700 annual.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\MAAA0030.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\MAAA0489.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\MAAA0628.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\MAAA0899nursery.JPG' alt="" />
                 </Div>
 
 

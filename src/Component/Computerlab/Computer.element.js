@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Directorbackground = styled.div`
-background-image: url('https://drive.google.com/uc?id=1s8naju3cji0YoIsmFomAAdjXORrGbHm0');
+background-image: url('/website data for 2025-26/11_computer LAb/comp1.jpeg');
 height:80vh;
 background-repeat:no-repeat;
 background-size:cover;

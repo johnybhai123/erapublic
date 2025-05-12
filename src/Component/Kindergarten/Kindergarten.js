@@ -7,8 +7,8 @@ function Kindergarten() {
             <h1 style={{color:'green'}}>Kindergarten</h1>
             <hr />
           <div style={{display:'flex',flexWrap:'wrap'}}>
-          <img src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687987/IMG_1520_ebywyd.jpg' style={{height:'400px',width:'350px',display:'flex',margin:'auto',border:'1px solid grey',padding:'10px'}} alt="" />
-          <img src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687979/IMG_1512_xwikex.jpg' style={{height:'400px',width:'350px',display:'flex',margin:'auto',border:'1px solid grey',padding:'10px'}} alt="" />
+          <img src='\website data for 2025-26\kindergarten\IMG_1512.JPG' style={{height:'400px',width:'350px',display:'flex',margin:'auto',border:'1px solid grey',padding:'10px'}} alt="" />
+          <img src='\website data for 2025-26\kindergarten\IMG_1520.JPG' style={{height:'400px',width:'350px',display:'flex',margin:'auto',border:'1px solid grey',padding:'10px'}} alt="" />
           
           </div>
             <p style={{padding:'40px 0 0 0'}}>The Kindergarten Programme inculcates in children the qualities of curiosity, exploration and discovery in a fun-filled, safe and happy learning environment. The Kindergarten Programme makes use of a range of individual and group activities which create a lively and positive learning environment. Games, songs, creative projects, story-telling, role-playing, drawing and painting help develop children's foundational skills in literacy and numeracy. They are encouraged to play, explore and discover 

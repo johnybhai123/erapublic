@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Directorbackground = styled.div`
-background-image: url(${process.env.PUBLIC_URL + '/earlychildhood.jpg'});
+background-image: url('/website data for 2025-26/kindergarten/IMG_1512.JPG'});
 height:80vh;
 background-repeat:no-repeat;
 background-size:cover;

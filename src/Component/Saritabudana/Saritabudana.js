@@ -11,7 +11,7 @@ function Strongfoundation() {
         </h5>
         <hr />
         <Img
-          src="https://drive.google.com/uc?id=1NMB1iVrHDGSiCuR0iaEuqUu-XcvH7K-9"
+          src="\website data for 2025-26\TABS\ABOUT US\our team\Sarita Budana.JPG"
           alt=""
         />
         <p style={{ padding: "40px 0 0 0" }}>

@@ -30,28 +30,28 @@ function Facilities({ ChangeAnimation1, ChangeAnimation2, ChangeAnimation3 }) {
         <Fac>
           <Link to="/">
             <Component
-              image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687934/3_jop39w.jpg"
+              image="\website data for 2025-26\9_eco friendly campus\GG9A7187.JPG"
               heading="Campus"
               description="Four Acre Campus"
             />
           </Link>
           <Link to="/classroom">
             <Component
-              image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687936/computerlab_e3u3ki.jpg"
+              image="\website data for 2025-26\2_class room\WhatsApp Image 2025-02-07 at 9.08.05 PM.jpeg"
               heading=" Class Room "
               description=" Digital And Smart Class Room  "
             />
           </Link>
           <Link to="/library">
             <Component
-              image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687965/IMG_0963_luhjkh.jpg"
+              image="\website data for 2025-26\3_Library\4_LIBARY.JPG"
               heading="Library"
               description="Well equipped Library "
             />
           </Link>
           <Link to="/lab">
             <Component
-              image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687962/IMG_0959_zxwzoo.jpg"
+              image="\website data for 2025-26\4_Laboratary\Laboratory.JPG"
               heading="Laboratory "
               description="Science labs"
             />

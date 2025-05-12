@@ -11,7 +11,7 @@ function Md() {
         </h5>
         <hr />
         <Img
-          src="https://drive.google.com/uc?id=1WwmXR0U-j-cbY8JwkuOLjUgYaz-LjRFH"
+          src="\website data for 2025-26\TABS\ABOUT US\our team\Ratna Kusumakar.JPG"
           alt=""
         />
         <p style={{ padding: "40px 0 0 0" }}>

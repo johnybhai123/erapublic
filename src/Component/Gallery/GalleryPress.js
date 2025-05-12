@@ -6,12 +6,13 @@ function GalleryPress() {
     return (
       <div style={{ padding: "20px" }}>
         <Subgrid>
-          <Img src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687950/DSC_7869_iveovl.jpg"></Img>
+          <Img src="\website data for 2025-26\12_photo gallary\2.jpeg"></Img>
           <Img src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687948/DSC_8006_sto6cu.jpg"></Img>
-          <Img src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687959/DSC_8233_uqclx1.jpg"></Img>
-          <Img src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687974/5_mc6l0l.jpg"></Img>
-          <Img src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687967/DSC_8275_rkjekp.jpg"></Img>
-          <Img src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687949/DSC_7914_e8kr5f.jpg"></Img>
+          <Img src="\website data for 2025-26\12_photo gallary\466920785_1297967191412443_8124580088633938832_n.jpg"></Img>
+          <Img src="\website data for 2025-26\12_photo gallary\466963581_1298454034697092_5093681710718692104_n.jpg"></Img>
+          <Img src="\website data for 2025-26\12_photo gallary\467395662_1300037144538781_2840541889747279706_n.jpg"></Img>
+          <Img src="\website data for 2025-26\12_photo gallary\467493494_1300037524538743_4376700392344753314_n.jpg"></Img>
+         
                   </Subgrid>
       </div>
     );

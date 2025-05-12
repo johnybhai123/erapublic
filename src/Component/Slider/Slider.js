@@ -24,7 +24,7 @@ function Slider() {
         <div className="carousel-item active">
           <Img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714664315/421793706_1099420291267135_5349985736222032284_n_hkojwx.jpg"
+            src="\website data for 2025-26\sliding\IMG_1040.JPG"
             alt="First slide"
           />
           {/* <Carouselcaption>
@@ -35,7 +35,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714664324/MAAA1406_gksgyh.jpg"
+            src="\website data for 2025-26\sliding\MAAA0489.JPG"
             alt="Second slide"
           />
           {/* <Carouselcaption>
@@ -46,7 +46,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714664329/MAAA1381_tv8qn0.jpg"
+            src="\website data for 2025-26\sliding\MAAA0628.JPG"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -57,7 +57,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714664325/WhatsApp_Image_2024-04-15_at_8.58.52_PM_ibyyqd.jpg"
+            src="\website data for 2025-26\sliding\MAAA5479 LIBARY .JPG"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -68,7 +68,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714664329/MAAA1381_tv8qn0.jpg"
+            src="\website data for 2025-26\sliding\MAAA5489ART ND CRAFT.JPG"
             alt="Third slide"
           />
           {/* <Carouselcaption>
@@ -79,7 +79,7 @@ function Slider() {
         <div className="carousel-item">
           <Img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dvmqfke8w/image/upload/v1714664316/422931934_1099419781267186_4561911386703600390_n_wopl5e.jpg"
+            src="\website data for 2025-26\sliding\MAAA5506 COMPUTER LAB.JPG"
             alt="Third slide"
           />
           {/* <Carouselcaption>

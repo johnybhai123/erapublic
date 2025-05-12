@@ -7,12 +7,13 @@ function Gallerimage() {
   return (
     <div style={{ padding: "60px" }}>
       <Subgrid>
-        <Link to='/annual'><Img src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687977/IMG_1491_j5subk.jpg'></Img></Link>
-        <Link to='/annual'><Img src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687991/IMG_1494_rrb3gw.jpg'></Img></Link>
-        <Link to='/annual'><Img src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687974/IMG_1461_olfjd6.jpg'></Img></Link>
-        <Link to='/annual'><Img src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687984/IMG_1452_dre5ua.jpg'></Img></Link>
-        <Link to='/annual'><Img src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687984/IMG_1452_dre5ua.jpg'></Img></Link>
-        <Link to='/annual'><Img src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687962/IMG_0959_zxwzoo.jpg'></Img></Link>
+        <Link to='/annual'><Img src='\website data for 2025-26\annual function\DSC_2129 annual function.JPG'></Img></Link>
+        <Link to='/annual'><Img src='\website data for 2025-26\annual function\DSC_2615kawali.JPG'></Img></Link>
+        <Link to='/annual'><Img src='\website data for 2025-26\annual function\DSC_2695 AF.JPG'></Img></Link>
+        <Link to='/annual'><Img src='\website data for 2025-26\annual function\DSC_2700 annual.JPG'></Img></Link>
+        <Link to='/annual'><Img src='\website data for 2025-26\annual function\MAAA0030.JPG'></Img></Link>
+        <Link to='/annual'><Img src='\website data for 2025-26\annual function\MAAA0489.JPG'></Img></Link>
+        
       
       </Subgrid>
     </div>

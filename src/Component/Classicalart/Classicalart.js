@@ -5,7 +5,7 @@ function Classrooms() {
         <Main>
             <h1 style={{color:'green'}}>PLAYGROUND</h1>
             <hr />
-            <img src='https://res.cloudinary.com/dvmqfke8w/image/upload/v1706687989/sports_a3n8t2.jpg' style={{height:'400px',width:'67vw',display:'flex',margin:'auto',border:'1px solid grey',padding:'10px'}} alt="" />
+            <img src='\website data for 2025-26\10_sports\WhatsApp Image 2024-12-14 at 3.40.06 PM.jpeg' style={{height:'400px',width:'67vw',display:'flex',margin:'auto',border:'1px solid grey',padding:'10px'}} alt="" />
             <p style={{padding:'40px 0 0 0'}}>For true integrated growth to take place, our children's physical self must be systematically developed. Sports facilities at our school include indoor games and outdoor sports. The sports curriculum is designed according to the needs of the different age groups. In the pre-primary and primary classes, emphasis is laid on the development ofgross motor skills, physical stamina, flexibility, balance, strength</p>
             <p>hygiene, overcoming physical fears and hesitations and the development of team play. In the primary classes, games with rules become increasingly important. Team accomplishments complement individual goals for excellence. Gradually, skills of play and precision with mastery assume greater significance for students of the secondary and senior secondary classes. Indoor facilities will bebe made available for table tennis, chess, carom and gymnasium. Outdoor sports include basketball, tennis, badminton, football and athletics.</p>
         </Main>
