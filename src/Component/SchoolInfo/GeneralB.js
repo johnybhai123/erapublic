@@ -23,7 +23,7 @@ const GeneralB = () => {
                     <tr>
                         <td>1</td>
                         <td>COPIES OF AFFILIATION/ UPGRADATION LETTER AND RECENT EXTENSION OF AFFILIATION, IF ANY</td>
-                        <td className='text-center'><a href="pdf_images/1_AFF_Letter.pdf" target='_blank'> Link</a></td>
+                        <td className='text-center'><a href="pdf_images/1_COPIES OF AFFILIATION.pdf" target='_blank'> Link</a></td>
                     </tr>
                     <tr>
                         <td>2</td>
@@ -39,7 +39,7 @@ const GeneralB = () => {
                     <tr>
                         <td>4</td>
                         <td>COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2009, AND ITS RENEWAL IF APPLICABLE</td>
-                        <td className='text-center'><a href="pdf_images/4_Rec_Let.pdf" target='_blank'>Link</a></td>
+                        <td className='text-center'><a href="pdf_images/4_Recognition_certificate.pdf" target='_blank'>Link</a></td>
                     </tr>
                     <tr>
                         <td>5</td>
@@ -49,7 +49,7 @@ const GeneralB = () => {
                     <tr>
                         <td>6</td>
                         <td>COPY OF VALID FIRE SAFETY CERTIFICATE ISSUED BY THE COMPETENT AUTHORITY</td>
-                        <td className='text-center'><a href="pdf_images/6_Fire_NOC.pdf" target='_blank'>Link</a></td>
+                        <td className='text-center'><a href="pdf_images/FIRE_NOC_BILL.pdf" target='_blank'>Link</a></td>
                     </tr>
                     <tr>
                         <td>7</td>

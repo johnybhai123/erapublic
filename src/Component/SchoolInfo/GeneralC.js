@@ -29,28 +29,28 @@ const GeneralC = () => {
                                     <tr>
                                         <td>1</td>
                                         <td>	FEE STRUCTURE OF THE SCHOOL</td>
-                                        <td className='text-center'><a href="pdf_images/9_Fee_Str.pdf" target='_blank' >Link</a></td>
+                                        <td className='text-center'><a href="pdf_images/FEE_STRUCTURE_25-26.pdf" target='_blank' >Link</a></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
                                         <td>	ANNUAL ACADEMIC CALENDAR</td>
-                                        <td className='text-center'><a href="pdf_images/Academic_Academic Calander.pdf" target='_blank' >Link</a></td>
+                                        <td className='text-center'><a href="pdf_images/Academic_Calendar_225.pdf" target='_blank' >Link</a></td>
 
                                     </tr>
                                     <tr>
                                         <td>3</td>
                                         <td>	LIST OF THE SCHOOL MANAGEMENT COMMITTEE (SMC)</td>
-                                        <td className='text-center'><a href="pdf_images/11_SMC.pdf" target='_blank' >Link</a></td>
+                                        <td className='text-center'><a href="pdf_images/SMC.pdf" target='_blank' >Link</a></td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
                                         <td>	LIST OF THE PARENTS TEACHERS ASSOCIATION (PTA) MEMBERS</td>
-                                        <td className='text-center'><a href="pdf_images/12_PTA.pdf" target='_blank' >Link</a></td>
+                                        <td className='text-center'><a href="pdf_images/PTA.pdf" target='_blank' >Link</a></td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
                                         <td>	LAST THREE-YEAR RESULT OF THE BOARD EXAMINATION AS PER APPLICABILITY</td>
-                                        <td className='text-center'><a href="pdf_images/board_result.pdf" target='_blank' >Link</a></td>
+                                        <td className='text-center'><a href="pdf_images/Last_three_years_Result.pdf" target='_blank' >Link</a></td>
                                     </tr>
 
                                 </tbody>
