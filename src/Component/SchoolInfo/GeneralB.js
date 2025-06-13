@@ -54,7 +54,7 @@ const GeneralB = () => {
                     <tr>
                         <td>7</td>
                         <td>COPY OF THE DEO CERTIFICATE SUBMITTED BY THE SCHOOL FOR AFFILIATION/ UPGRADATION/ EXTENSION OF AFFILIATION OR SELF CERTIFICATION BY THE SCHOOL</td>
-                        <td className='text-center'><a href="pdf_images/Self Certificate.pdf" target='_blank'>Link</a></td>
+                        <td className='text-center'><a href="pdf_images/SELF_CERTIFICATION.pdf" target='_blank'>Link</a></td>
                     </tr>
                     <tr>
                         <td>8</td>

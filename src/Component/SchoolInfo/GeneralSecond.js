@@ -30,32 +30,32 @@ const GeneralSecond = () => {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                      
-                                        <tr>
-                                            <td>1</td>
-                                            <td>2020-2021</td>
-                                            <td>27</td>
-                                            <td>15</td>
-                                            <td>53.57</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>2021-2022</td>
-                                            <td>28</td>
-                                            <td>24</td>
-                                            <td>85</td>
-                                            <td></td>
-                                        </tr>
- <tr>
-                    <td>3</td>
-                    <td>2022-23</td>
-                    <td>69</td>
-                    <td>40</td>
-                    <td>58</td>
-                    <td></td>
-                  </tr>
-                                    </tbody>
+    <tr>
+        <td>1</td>
+        <td>2022-23</td>
+        <td>69</td>
+        <td>40</td>
+        <td>58</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>2023-24</td>
+        <td>62</td>
+        <td>47</td>
+        <td>75.81</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>2024-25</td>
+        <td>43</td>
+        <td>34</td>
+        <td>79.06</td>
+        <td></td>
+    </tr>
+</tbody>
+
                                 </Table>
                             </Col>
                         </Row>

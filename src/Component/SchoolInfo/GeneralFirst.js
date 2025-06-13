@@ -28,33 +28,33 @@ const GeneralFirst = () => {
                                         <th>REMARKS</th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                  
-                                    <tr>
-                                        <td>1</td>
-                                        <td>2020-21</td>
-                                        <td>55</td>
-                                        <td>55</td>
-                                        <td>100.00</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>2021-22</td>
-                                        <td>18</td>
-                                        <td>48</td>
-                                        <td>100.00</td>
-                                        <td></td>
-                                    </tr>
-  <tr>
-                    <td>3</td>
-                    <td>2022-23</td>
-                    <td>51</td>
-                    <td>49</td>
-                    <td>96</td>
-                    <td></td>
-                  </tr>
-                                </tbody>
+                               <tbody>
+    <tr>
+        <td>1</td>
+        <td>2022-23</td>
+        <td>51</td>
+        <td>49</td>
+        <td>96.00</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>2023-24</td>
+        <td>88</td>
+        <td>85</td>
+        <td>96.59</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>2024-25</td>
+        <td>97</td>
+        <td>93</td>
+        <td>97.87</td>
+        <td></td>
+    </tr>
+</tbody>
+
                             </Table>
                         </Col>
                     </Row>
