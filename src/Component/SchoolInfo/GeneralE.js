@@ -66,7 +66,7 @@ const GeneralE = () => {
     <tr>
                                         <td></td>
                                         <td>APPENDIX IX</td>
-                                        <td className='text-center'><a href="pdf_images/Mandatory Disclosure Details.pdf" target='_blank'>Link</a></td>
+                                        <td className='text-center'><a href="pdf_images/Mandatory_Disclosure_Details _SARAS 6.0.pdf" target='_blank'>Link</a></td>
                                     </tr>
 
                                 </tbody>
