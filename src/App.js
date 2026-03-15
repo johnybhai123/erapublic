@@ -26,6 +26,7 @@ import Schoolmanagementcommittee from "./Component/Schoolmanagementcommittee/sch
 
 import BoardResult from "./Component/SchoolInfo/BoardResult";
 import PopModal from "./PopModal";
+import ManojBudana from "./Component/Saritabudana/ManojBudana";
 
 
 
@@ -71,6 +72,7 @@ function App() {
           <Route path="/Tm" exact component={Teachingmethodlogy} />
           <Route path="/ourteam" exact component={Ourteam} />
           <Route path="/Director" exact component={Saritabudana} />
+          <Route path="/Director1" exact component={ManojBudana} />
           <Route path="/Md" exact component={Md} />
           <Route path="/president" exact component={President} />
           <Route path="/principal" exact component={Principal} />
