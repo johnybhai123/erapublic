@@ -20,14 +20,16 @@ function Annualfunction() {
 
             <Div style={{display:'flex',flexWrap:'wrap'}}>
 
-                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\DSC_2129 annual function.JPG' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\DSC_2615kawali.JPG' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\DSC_2695 AF.JPG' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\DSC_2700 annual.JPG' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\MAAA0030.JPG' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\MAAA0489.JPG' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\MAAA0628.JPG' alt="" />
-                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\MAAA0899nursery.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\annualfunction1.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\annualfunction2.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\annualfunction3.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\annualfunction4.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\annualfunction5.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\annualfunction6.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\annualfunction7.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\annualfunction8.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\annualfunction9.JPG' alt="" />
+                        <img style={{height:'300px',width:'300px'}} src='\website data for 2025-26\annual function\annualfunction10.JPG' alt="" />
                 </Div>
 
 
