@@ -29,7 +29,7 @@ const GeneralC = () => {
                                     <tr>
                                         <td>1</td>
                                         <td>	FEE STRUCTURE OF THE SCHOOL</td>
-                                        <td className='text-center'><a href="pdf_images/FEE_STRUCTURE_25-26.pdf" target='_blank' >Link</a></td>
+                                        <td className='text-center'><a href="pdf_images/feestructureOverAll26-27docx.pdf" target='_blank' >Link</a></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
