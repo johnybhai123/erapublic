@@ -222,7 +222,7 @@ function Navbar({ Changedisplay }) {
                   >
 
                     <li>
-                      <a style={{ textDecoration: 'none', color: "black" }} href="https://drive.google.com/file/d/1Q2mdTCE4rbSwL1oEUIzciz-MDVFH6xVA/view?usp=sharing"  >
+                      <a style={{ textDecoration: 'none', color: "black" }} href="pdf_images/Booklist2026_27.pdf"  >
                         <a className="dropdown-item">
                           Book List
                         </a></a>
