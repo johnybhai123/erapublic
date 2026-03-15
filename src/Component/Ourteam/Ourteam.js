@@ -14,6 +14,7 @@ function Ourteam() {
            {/* <Teamimage></Teamimage>  */}
            <Heading/>
            <Rowcolumn33>
+            <Link to='/Director' style={{textDecoration:'none'}}>  <Teampeople image='\website data for 2025-26\TABS\ABOUT US\our team\DIRECTORSIR.JPG' name='Manoj Budana' designation='Director' /></Link>
               <Link to='/Director' style={{textDecoration:'none'}}>  <Teampeople image='\website data for 2025-26\TABS\ABOUT US\our team\Sarita Budana.JPG' name='Sarita Budana' designation='Director' /></Link>
       
               <Link to='/Md'  style={{textDecoration:'none'}}>  <Teampeople image='\website data for 2025-26\TABS\ABOUT US\our team\Ratna Kusumakar.JPG' name='Ratna Kusumakar' designation='Managing Director'/></Link>
